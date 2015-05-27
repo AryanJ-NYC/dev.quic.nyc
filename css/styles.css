@@ -1,0 +1,46 @@
+.divInt{
+    min-height:300px;
+    position:relative;
+}
+.circleBoxRight{
+    position:relative;
+    float:right;
+    margin-left:10px;
+    width:300px;
+    height:300px;
+}
+
+.circleBoxRight img{
+    width:300px;
+    height:300px;
+    float:right;
+    margin-left:10px;
+    border-radius:150px;
+}
+
+.circleBoxLeft{
+    position:relative;
+    float:left;
+    margin-right:10px;
+    width:300px;
+    height:300px;
+}
+
+.circleBoxLeft img{
+    width:300px;
+    height:300px;
+    float:left;
+    margin-right:10px;
+    border-radius:150px;
+}
+
+body{
+    padding:1px;
+}
+
+img {
+    position:relative;
+    float:left;
+    height:350px;
+    width:auto;
+}
