@@ -24,33 +24,7 @@
 
 <body>
 
-<div class="navbar">
-    <div class="navbar-inner">
-    <div class="container">
-
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-         </a>
-
-        <a class="brand" href="">Queens College Incubator</a>
-
-        <div class="nav-collapse">
-        <ul class="nav">
-            <li><a href="/pages/mission.html">Mission</a></li>
-            <li><a href="/pages/companies.html">Companies</a></li>
-            <li><a href="/pages/projects.html">Projects</a></li>
-            <li><a href="/pages/research.html">Research</a></li>
-            <li><a href="/pages/fellows.html">Fellows</a></li>
-            <li><a href="/pages/staff.html">Staff</a></li>
-            
-        </ul>
-        </div>
-        
-    </div>
-    </div>
-</div>
+<?php include 'header.php'; ?>
 
 <div class="container">
     <div class="content">
@@ -60,41 +34,17 @@
         
 <section id="content" class="body">    
     <h2 class="content-title">
-        Staff
+        Research
     </h2>
-    <h1>The Queens College Incubator Staff</h1>
-<h2>Professor Ted Brown, Ph.D.</h2>
-<p><img src="../images/TedBrown.jpg" width="450px" alt="img" title="TedBrown.jpg"></p>
-
-<p><em>Executive Director, CUNY Institute for Software Design and Development</em>
-<em>Professor of Computer Science, Queens College</em></p>
-<p>Professor Brown oversees CISDD, develops relationships with the
-software industry, develops software ideas and applications,
-facilitates CISDD's role in CUNY and determines the mission and goals
-of the Software Institute. As Chair of the Computer Science department
-at Queens College, he engineered a great deal of change, including
-overseeing an ever-changing curriculum and implementing Java as the
-language for all students to learn. Professor Brown is also on the
-Executive Board of the New York Software Industry Association.</p>
-<h2>Evan Misshula</h2>
-<p><img src="../images/EvanMisshula.jpg" width="450px" alt="img" title="EvanMisshula.jpg"></p>
-
-<p>I am a GC Digital Fellow and sixth year PhD student in Criminal
-Justice at the CUNY Graduate Center. My dissertation is a
-Quasi-experimental evaluation of a public health centered
-anti-violence programs. I recently served as a CUNY John Jay
-Presidential Fellow where I work on the Misdemeanor Justice
-Project. At John Jay I am a member of the
-Punishment-2-Public-Health-Academy and the Social Network Research
-Group (SNRG-NYC). . I mentor for the College Initiative, a project
-which helps people returning from prison access higher
-education. Additionally, I serve on the Men's Advisory Board for the
-Prison Visiting Project of Corrections Association of New York as well
-as the Research Advisory Board of NY Public Library. I am a member of
-(and have given at least one presentation at) the meetup groups
-NYC-D3-JS, NYC Python and Emacsnyc. At the Queens College incubator,
-my principal focus is on the Starter Jobs project and I hope to
-contribute to the STEM+C and Cuisine Map of Flushing as well.</p>
+    <h1>Building performance</h1>
+<p>In partnership with the building performance lab at the CUNY School of Professional Studies 
+and the CUNY Instituute of Software Design and Development the Queens Incubator is 
+applying machine learning to the prediction of tempratures and energy consumption of 
+large buildings.  Every year, New York City Government (and its residents) spend literally 
+billions of dollars to heat and cool their living and work space. Sadly much of that spending
+is wasteful with buildings being heated and cooled at the same time.  Our project hopes to 
+guide New York City agencies on how to make their workspace more comfortable in an energy 
+efficient manner.</p>
 </section>
         </div>
         

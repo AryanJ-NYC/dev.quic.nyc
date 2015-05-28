@@ -24,33 +24,7 @@
 
 <body>
 
-<div class="navbar">
-    <div class="navbar-inner">
-    <div class="container">
-
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-         </a>
-
-        <a class="brand" href="">Queens College Incubator</a>
-
-        <div class="nav-collapse">
-        <ul class="nav">
-            <li><a href="/pages/mission.html">Mission</a></li>
-            <li><a href="/pages/companies.html">Companies</a></li>
-            <li><a href="/pages/projects.html">Projects</a></li>
-            <li><a href="/pages/research.html">Research</a></li>
-            <li><a href="/pages/fellows.html">Fellows</a></li>
-            <li><a href="/pages/staff.html">Staff</a></li>
-            
-        </ul>
-        </div>
-        
-    </div>
-    </div>
-</div>
+<?php include 'header.php'; ?>
 
 <div class="container">
     <div class="content">
@@ -60,17 +34,44 @@
         
 <section id="content" class="body">    
     <h2 class="content-title">
-        Research
+        Mission
     </h2>
-    <h1>Building performance</h1>
-<p>In partnership with the building performance lab at the CUNY School of Professional Studies 
-and the CUNY Instituute of Software Design and Development the Queens Incubator is 
-applying machine learning to the prediction of tempratures and energy consumption of 
-large buildings.  Every year, New York City Government (and its residents) spend literally 
-billions of dollars to heat and cool their living and work space. Sadly much of that spending
-is wasteful with buildings being heated and cooled at the same time.  Our project hopes to 
-guide New York City agencies on how to make their workspace more comfortable in an energy 
-efficient manner.</p>
+    <p><img src="../images/lib1.jpg" width="650px" alt="img" title="lib1.jpg"></p>
+
+<h1>Queens College Mission Statement</h1>
+<p>The mission of Queens College is to prepare students to become leading
+citizens of an increasingly global society. The college seeks to do
+this by offering its exceptionally diverse student body a rigorous
+education in the liberal arts and sciences under the guidance of a
+faculty that is dedicated to the pursuit of excellence and the
+expansion of the frontiers of knowledge. Its goal is that students
+learn to think critically, address complex problems, explore various
+cultures, and use effectively the full array of available technologies
+and information resources.</p>
+<p>For its faculty, the college seeks productive scholars, scientists,
+and artists deeply committed to teaching. It endeavors to enhance the
+teaching effectiveness of faculty and to encourage their research and
+creative work. The college recognizes the importance of a diverse
+faculty responsive to the needs and aspirations of students of all
+ages and backgrounds.</p>
+<p>As a public institution, Queens College provides affordable access to
+higher education and embraces its special obligation to serve the
+larger community. It is a source of information in the public
+interest; it is a venue for cultural and educational activities
+serving the general public. Through its graduates’ contributions to an
+educated workforce and through the leading roles they assume in their
+local communities, the college is vested in the economic future and
+vitality of New York.</p>
+<p>As one of the most culturally diverse campuses in the country, Queens
+College faces special challenges and opportunities. By balancing
+tradition and innovation in the service of this diversity, it
+represents the future of the nation.</p>
+<h1>The Queens College Incubator</h1>
+<p>The Incubator seeks to carry forward the mission of the college by 
+attracting high tech business to campus and giving them access to 
+the diverse and talented students, staff and faculty of the college.
+It is the ambititon of the incubator to reflect the tremendous diversity
+and resoucefulnees of the many ethnic communities of Queens itself.</p>
 </section>
         </div>
         

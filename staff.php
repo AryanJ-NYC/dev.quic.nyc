@@ -24,33 +24,7 @@
 
 <body>
 
-<div class="navbar">
-    <div class="navbar-inner">
-    <div class="container">
-
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-         </a>
-
-        <a class="brand" href="">Queens College Incubator</a>
-
-        <div class="nav-collapse">
-        <ul class="nav">
-            <li><a href="/pages/mission.html">Mission</a></li>
-            <li><a href="/pages/companies.html">Companies</a></li>
-            <li><a href="/pages/projects.html">Projects</a></li>
-            <li><a href="/pages/research.html">Research</a></li>
-            <li><a href="/pages/fellows.html">Fellows</a></li>
-            <li><a href="/pages/staff.html">Staff</a></li>
-            
-        </ul>
-        </div>
-        
-    </div>
-    </div>
-</div>
+<?php include 'header.php'; ?>
 
 <div class="container">
     <div class="content">
@@ -60,30 +34,41 @@
         
 <section id="content" class="body">    
     <h2 class="content-title">
-        Companies
+        Staff
     </h2>
-    <p><img src="../images/iycOld.jpg" width="350px" alt="img" title="iycOld.jpg"></p>
+    <h1>The Queens College Incubator Staff</h1>
+<h2>Professor Ted Brown, Ph.D.</h2>
+<p><img src="../images/TedBrown.jpg" width="450px" alt="img" title="TedBrown.jpg"></p>
 
-<h1>In Your Class</h1>
-<p>A combination of facebook and Blackboard.  The company was founded by
-three Ukrainian immigrants in 2009 while they were students at City
-College. The app is used by 40,000 CUNY Students. Stanford's
-development office uses it to handle communications with its parent 
-association.  The company has just secured A round funding of $800 thousand 
-dollars.  Ari Xehlo, a co-founder, says "We are looking to hire 
-CUNY students who are hungry to learn and do their best work."</p>
-<p><img src="../images/ibd2.jpg" width="350px" alt="img" title="ibd2.jpg"></p>
+<p><em>Executive Director, CUNY Institute for Software Design and Development</em>
+<em>Professor of Computer Science, Queens College</em></p>
+<p>Professor Brown oversees CISDD, develops relationships with the
+software industry, develops software ideas and applications,
+facilitates CISDD's role in CUNY and determines the mission and goals
+of the Software Institute. As Chair of the Computer Science department
+at Queens College, he engineered a great deal of change, including
+overseeing an ever-changing curriculum and implementing Java as the
+language for all students to learn. Professor Brown is also on the
+Executive Board of the New York Software Industry Association.</p>
+<h2>Evan Misshula</h2>
+<p><img src="../images/EvanMisshula.jpg" width="450px" alt="img" title="EvanMisshula.jpg"></p>
 
-<h1>The International Black Doctoral Network</h1>
-<p>The Black Doctoral Network (BDN) is a multidisciplinary clearinghouse
-for black and Latino scholars and professionals in the Social
-Sciences, STEM, and Humanities. BDN carves out for itself an empowered
-position in black and Latino communities to mitigate the achievement
-gap among persons at all education levels, challenge persistent
-negative stereotypes of black and Latino achievement, answer the call
-for diversity in university and professional organizations, and bridge
-the gap between theory and practices informing extant understandings
-of disparate outcomes along the lines of race and ethnicity.</p>
+<p>I am a GC Digital Fellow and sixth year PhD student in Criminal
+Justice at the CUNY Graduate Center. My dissertation is a
+Quasi-experimental evaluation of a public health centered
+anti-violence programs. I recently served as a CUNY John Jay
+Presidential Fellow where I work on the Misdemeanor Justice
+Project. At John Jay I am a member of the
+Punishment-2-Public-Health-Academy and the Social Network Research
+Group (SNRG-NYC). . I mentor for the College Initiative, a project
+which helps people returning from prison access higher
+education. Additionally, I serve on the Men's Advisory Board for the
+Prison Visiting Project of Corrections Association of New York as well
+as the Research Advisory Board of NY Public Library. I am a member of
+(and have given at least one presentation at) the meetup groups
+NYC-D3-JS, NYC Python and Emacsnyc. At the Queens College incubator,
+my principal focus is on the Starter Jobs project and I hope to
+contribute to the STEM+C and Cuisine Map of Flushing as well.</p>
 </section>
         </div>
         

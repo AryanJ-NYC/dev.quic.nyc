@@ -22,33 +22,7 @@
 
 <body>
 
-<div class="navbar">
-    <div class="navbar-inner">
-    <div class="container">
-
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-         </a>
-
-        <a class="brand" href="">Queens College Incubator</a>
-
-        <div class="nav-collapse">
-        <ul class="nav">
-            <li><a href="/pages/mission.html">Mission</a></li>
-            <li><a href="/pages/companies.html">Companies</a></li>
-            <li><a href="/pages/projects.html">Projects</a></li>
-            <li><a href="/pages/research.html">Research</a></li>
-            <li><a href="/pages/fellows.html">Fellows</a></li>
-            <li><a href="/pages/staff.html">Staff</a></li>
-            
-        </ul>
-        </div>
-        
-    </div>
-    </div>
-</div>
+<?php include 'header.php'; ?>
 
 <div class="container">
     <div class="content">
