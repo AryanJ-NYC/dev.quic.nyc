@@ -50,85 +50,10 @@ at Queens College, he engineered a great deal of change, including
 overseeing an ever-changing curriculum and implementing Java as the
 language for all students to learn. Professor Brown is also on the
 Executive Board of the New York Software Industry Association.</p>
-<h2>Evan Misshula</h2>
-<p><img src="../images/EvanMisshula.jpg" width="450px" alt="img" title="EvanMisshula.jpg"></p>
-
-<p>I am a GC Digital Fellow and sixth year PhD student in Criminal
-Justice at the CUNY Graduate Center. My dissertation is a
-Quasi-experimental evaluation of a public health centered
-anti-violence programs. I recently served as a CUNY John Jay
-Presidential Fellow where I work on the Misdemeanor Justice
-Project. At John Jay I am a member of the
-Punishment-2-Public-Health-Academy and the Social Network Research
-Group (SNRG-NYC). . I mentor for the College Initiative, a project
-which helps people returning from prison access higher
-education. Additionally, I serve on the Men's Advisory Board for the
-Prison Visiting Project of Corrections Association of New York as well
-as the Research Advisory Board of NY Public Library. I am a member of
-(and have given at least one presentation at) the meetup groups
-NYC-D3-JS, NYC Python and Emacsnyc. At the Queens College incubator,
-my principal focus is on the Starter Jobs project and I hope to
-contribute to the STEM+C and Cuisine Map of Flushing as well.</p>
 </section>
         </div>
         
-        <div class="span3">
-
-            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Site
-                </li>
-            
-                <li><a href="/archives.html">Archives</a>
-                <li><a href="/tags.html">Tags</a>
-
-
-
-
-            </ul>
-            </div>
-
-
-            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Categories
-                </li>
-                
-                <li><a href="/category/funding.html">Funding</a></li>
-                   
-            </ul>
-            </div>
-
-
-            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Links
-                </li>
-            
-                <li><a href="http://www.qc.cuny.edu/Pages/home.aspx">Queens Collge</a></li>
-                <li><a href="http://www.cs.qc.cuny.edu/index-5.html">Queens College CS</a></li>
-                <li><a href="http://flushingchamber.com">Flushing Chamber of Commerce</a></li>
-            </ul>
-            </div>
-
-
-            <div class="social">
-            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Social
-                </li>
-           
-                <li><a href="https://twitter.com/emisshula">twitter</a></li>
-                <li><a href="https://github.com/cisdd">github</a></li>
-            </ul>
-            </div>
-            </div>
-
-        </div>  
+    <?php include('right-nav.php') ?>
     </div>     </div> 
 <footer>
 <br />

@@ -8,7 +8,7 @@
              <span class="icon-bar"></span>
          </a>
 
-        <a class="brand" href="">Queens College Incubator</a>
+        <a class="brand" href="/index.php">Queens College Incubator</a>
 
         <div class="nav-collapse">
         <ul class="nav">
