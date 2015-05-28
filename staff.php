@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Queens College Incubator</title>
     <meta name="description" content="">
-    <meta name="author" content="Evan Misshula">
+    <meta name="author" content="Queens College Incubator">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
