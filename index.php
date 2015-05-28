@@ -97,10 +97,7 @@ domestically that are currently developed overseas.</p></div>
 <?php include('right-nav.php') ?>
 
     </div>     </div> 
-<footer>
-<br />
-<p><a href="">Queens College Incubator</a></p>
-</footer>
+<?php include('footer.php') ?>
 
 </div> <!-- /container -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>

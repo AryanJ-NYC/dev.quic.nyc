@@ -55,10 +55,8 @@ Executive Board of the New York Software Industry Association.</p>
         
     <?php include('right-nav.php') ?>
     </div>     </div> 
-<footer>
-<br />
-<p><a href="">Queens College Incubator</a> &copy; Evan Misshula 2014</p>
-</footer>
+    
+<?php include('footer.php') ?>
 
 </div> <!-- /container -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
