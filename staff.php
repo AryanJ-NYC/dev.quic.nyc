@@ -38,7 +38,7 @@
     </h2>
     <h1>The Queens College Incubator Staff</h1>
 <h2>Professor Ted Brown, Ph.D.</h2>
-<p><img src="../images/TedBrown.jpg" width="450px" alt="img" title="TedBrown.jpg"></p>
+<p><img src="/images/TedBrown.jpg" width="450px" alt="img" title="TedBrown.jpg"></p>
 
 <p><em>Executive Director, CUNY Institute for Software Design and Development</em>
 <em>Professor of Computer Science, Queens College</em></p>
