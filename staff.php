@@ -28,7 +28,11 @@
             <h2>The Queens College Incubator Staff</h2>
             <h3>Professor Ted Brown, Ph.D.</h3>
             <img class="image" src="/images/TedBrown.jpg" width="450px" alt="img" title="TedBrown.jpg" />
+<<<<<<< HEAD
             <p class="image_footer">
+=======
+            <p>
+>>>>>>> 3adc00a8e56960d52290c358d6460edf62009200
             <em>Executive Director, CUNY Institute for Software Design and Development</em> 
 			<br>
             <em>Professor of Computer Science, Queens College</em></p>
@@ -45,4 +49,8 @@
   <!-- /container -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
   <script src="/theme/bootstrap-collapse.js"></script></body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 3adc00a8e56960d52290c358d6460edf62009200
