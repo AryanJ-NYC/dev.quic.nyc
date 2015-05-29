@@ -37,7 +37,9 @@
 body{
     padding:1px;
 }
-
+p{
+	clear:both;
+}
 img {
     position:relative;
     float:left;
