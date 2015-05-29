@@ -36,11 +36,11 @@
     <h2 class="content-title">
         Fellows
     </h2>
-    <p><link href="../css/styles.css" rel="stylesheet"></link></p>
+    <p><link href="/css/styles.css" rel="stylesheet"></link></p>
 <h1>The Queens College Incubator Fellows</h1>
 <h2>Carlos Del Rosario</h2>
 <p><div class="divInt">
-<div class="circleBoxRight"><img src="../images/CarlosDelRosario.jpg" alt="img" title="Carlos Del Rosario" style=""></div></p>
+<div class="circleBoxRight"><img src="/images/CarlosDelRosario.jpg" alt="img" title="Carlos Del Rosario" style=""></div></p>
 <p>Born and raised in the Dominican Republic, I moved to the United
 States in September of 2010. I am currently a Senior at Queens
 College; Originally pursuing a degree in Telecommunications
@@ -56,9 +56,9 @@ technologies and work on small projects. Among technologies that call
 my attention right now are Software Development, Android
 Applications, Arduino Projects, 3D Printing and more.
 </div></p>
-<h2><a href="../images/Matthew_Blanco_Resume.pdf">Matthew Blanco</a></h2>
+<h2><a href="/images/Matthew_Blanco_Resume.pdf">Matthew Blanco</a></h2>
 <p><div class="divInt">
-<div class="circleBoxLeft"><img src="../images/MatthewBlanco.jpg"/></div></p>
+<div class="circleBoxLeft"><img src="/images/MatthewBlanco.jpg"/></div></p>
 <p>I am currently a senior at Queens College pursuing my Bachelor’s in
 Computer Science.  I am lucky to have had family and friends who have
 given me courage when I thought I had none.  Simply not wanting to
@@ -90,7 +90,7 @@ support the less fortunate in the community. My personal website is
 </div></p>
 <h2>Kenneth Goodman</h2>
 <p><div class="divInt">
-<div class="circleBoxRight"><img src="../images/KennethGoodman.jpg" alt="img" title="KennethGoodman.jpg"></div></p>
+<div class="circleBoxRight"><img src="/images/KennethGoodman.jpg" alt="img" title="KennethGoodman.jpg"></div></p>
 <p>I am an Applied Mathematics Student with a concentration in Computer
 Science at Queens College. On my free time I study data analytics,
 number theory and video game design. At the Queens College incubator,
@@ -100,7 +100,7 @@ various backgrounds succeed in fields that are so important.
 </div></p>
 <h2>Kevin Ramsunder</h2>
 <p><div class="divInt">
-<div class="circleBoxLeft"><img src="../images/KevinRamsunder.jpg" alt="img" title="KevinRamsunder.jpg"></div></p>
+<div class="circleBoxLeft"><img src="/images/KevinRamsunder.jpg" alt="img" title="KevinRamsunder.jpg"></div></p>
 <p>My name is Kevin Ramsunder, and I am a third year undergraduate
 student at Queens College. I started programming as a hobby in high
 school after participating in my school's Robotics program. Nowadays,
@@ -116,7 +116,7 @@ available here. My website is KevinRamsunder.com.
 </div></p>
 <h2>Miriam Striks</h2>
 <p><div class="divInt">
-<div class="circleBoxRight"><img src="../images/MiriamStriks.jpg" alt="img" title="MiriamStriks.jpg"></div></p>
+<div class="circleBoxRight"><img src="/images/MiriamStriks.jpg" alt="img" title="MiriamStriks.jpg"></div></p>
 <p>I am a senior majoring in computer science at Queens College, where I
 also work with Professor Christopher Hanusa doing research in
 experimental mathematics. As part of our research, I recently
@@ -141,7 +141,7 @@ focuses at the Queens College technology incubator is on the Starter
 Jobs and Flushing Chamber of Commerce projects.</p>
 <h2>Alexander Malahoff</h2>
 <p><div class="divInt">
-<div class="circleBoxRight"><img src="../images/AlexanderMalahoff.jpg" alt="img" title="AlexanderMalahoff.jpg"></div></p>
+<div class="circleBoxRight"><img src="/images/AlexanderMalahoff.jpg" alt="img" title="AlexanderMalahoff.jpg"></div></p>
 <p>I am a junior in Queens College majoring in computer science. I am
 a graduate of Cornell Law School and I am an admitted attorney in the
 state of New York. I have worked for Court System of New York and in the
