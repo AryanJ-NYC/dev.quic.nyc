@@ -15,7 +15,7 @@
     <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet" />
     <link href="/theme/local.css" rel="stylesheet" />
     <link href="/theme/pygments.css" rel="stylesheet" />
-	<link href="/css/styles.css" rel="stylesheet"/>
+    <link href="/css/styles.css" rel="stylesheet" />
     <!-- So Firefox can bookmark->"abo this site" -->
   </head>
   <body><?php include 'header.php'; ?>
@@ -28,14 +28,12 @@
             <h2>The Queens College Incubator Staff</h2>
             <h3>Professor Ted Brown, Ph.D.</h3>
             <img class="image" src="/images/TedBrown.jpg" width="450px" alt="img" title="TedBrown.jpg" />
-<<<<<<< HEAD
-            <p class="image_footer">
-=======
+            <p class="image_footer"></p>
             <p>
->>>>>>> 3adc00a8e56960d52290c358d6460edf62009200
-            <em>Executive Director, CUNY Institute for Software Design and Development</em> 
-			<br>
-            <em>Professor of Computer Science, Queens College</em></p>
+              <em>Executive Director, CUNY Institute for Software Design and Development</em>
+              <br />
+              <em>Professor of Computer Science, Queens College</em>
+            </p>
             <p>Professor Brown oversees CISDD, develops relationships with the software industry, develops software ideas and
             applications, facilitates CISDD&#39;s role in CUNY and determines the mission and goals of the Software Institute. As
             Chair of the Computer Science department at Queens College, he engineered a great deal of change, including overseeing
@@ -48,9 +46,6 @@
   </div>
   <!-- /container -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
-  <script src="/theme/bootstrap-collapse.js"></script></body>
-<<<<<<< HEAD
+  <script src="/theme/bootstrap-collapse.js"></script>
+  </body>
 </html>
-=======
-</html>
->>>>>>> 3adc00a8e56960d52290c358d6460edf62009200
