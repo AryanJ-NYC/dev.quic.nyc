@@ -13,15 +13,20 @@
     <link href="./theme/bootstrap.min.responsive.css" rel="stylesheet">
     <link href="./theme/local.css" rel="stylesheet">
     <link href="./theme/pygments.css" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./js/mail.js"></script>
+
 </head>
 
 <body>
 <?php include('header.php'); ?>
 
-<form action = "submit-form.php" method = "post">
+<form id="form" method = "post">
 	<div class='container'>
 	<div class='content'>
 		<h2>City University of New York - Queens College Incubator Application</h2>
+		<br>
+		<div class="error"></div>
 		<div class='formsection'>
 		  <h3>Applicant Information</h3>
 		  <table width="800" border="0">
@@ -69,11 +74,10 @@
 		  <p>Presentation <input type='file' name='presentation' /></p>
 		  <p>Additional Bios/Etc <input type='file' name='bios' /></p>
 		</div>
-		<div style='margin-top:30px;margin-bottom:50px;text-align:center;'><input type='submit' name='submit' value='Submit' /></div>
+		<div style='margin-top:30px;margin-bottom:50px;text-align:center;'><input id="submit" type='submit' name='submit' value='Submit' /></div>
 	</div>
 	</div>
 
 </form>
-
 </body>
 </html>
