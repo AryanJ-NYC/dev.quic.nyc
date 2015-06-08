@@ -154,8 +154,9 @@ hr {
 footer {
   width: 270px;
   float: left;
-  position: fixed;
+  position: center;
   bottom: 50px;
+  
 }
 
 @media print, screen and (max-width:  960px) {

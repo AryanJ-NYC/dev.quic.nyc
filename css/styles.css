@@ -10,6 +10,7 @@
     height:300px;
 }
 
+
 .circleBoxRight img{
     width:300px;
     height:300px;
@@ -36,6 +37,7 @@
 
 body{
     padding:1px;
+	height:100%;
 }
 .image_footer{
 	clear:both;
@@ -46,3 +48,4 @@ img {
     height:350px;
     width:auto;
 }
+
