@@ -1,10 +1,15 @@
+
+html {
+	height: 100%;
+	overflow: auto;
+}
+
 body {
 	background-image: url("/images/qc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-} 
-.container {
-	height: 100%;
+    overflow: auto;
+    height: 100%;
 }
 
 .body, .formsection {
@@ -14,6 +19,7 @@ body {
 .content-title {
 	text-align:center;
 }
+
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
 audio:not([controls]){display:none;}
