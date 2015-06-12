@@ -5,9 +5,9 @@
         Links
         </li>
     
-        <li><a href="http://www.qc.cuny.edu/Pages/home.aspx">Queens Collge</a></li>
+        <li><a href="http://www.qc.cuny.edu/Pages/home.aspx">Queens College</a></li>
         <li><a href="http://www.cs.qc.cuny.edu/index-5.html">Queens College CS</a></li>
-        <li><a href="http://flushingchamber.com">Flushing Chamber of Commerce</a></li>
+        <li><a href="http://flushingchamber.nyc">Flushing Chamber of Commerce</a></li>
     </ul>
     </div>
 
