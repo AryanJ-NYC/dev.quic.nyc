@@ -8,27 +8,7 @@
     <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet" />
     <link href="/theme/local.css" rel="stylesheet" />
     <link href="/theme/pygments.css" rel="stylesheet" />
-    <style>
-      body {
-        background-image: url("/images/qc.jpg");
-        background-size: cover;
-      } 
-		  .container {
-			  height: 100%;
-		  }
-      .front_page {
-        background-color: rgba(240,240,240,.7);
-      }
-      .content-title{
-        text-align:center;
-      }
-      footer{
-        position:absolute;
-        bottom:0;
-        height:60px;   /* Height of the footer */
-        text-align:center;
-      }
-    </style>
+
   </head>
 
   <body>
