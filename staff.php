@@ -30,8 +30,11 @@
             <img class="image" src="/images/TedBrown.jpg" width="450px" alt="img" title="TedBrown.jpg" />
             <p class="image_footer">
               <em>Executive Director, CUNY Institute for Software Design and Development</em>
-              <br />
+              <br>
+              <em>Executive Director, Queens College Tech Incubator</em>
+              <br>
               <em>Professor of Computer Science, Queens College</em>
+
             </p>
             <p>Professor Brown oversees CISDD, develops relationships with the software industry, develops software ideas and
             applications, facilitates CISDD&#39;s role in CUNY and determines the mission and goals of the Software Institute. As
