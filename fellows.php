@@ -102,9 +102,9 @@
               particularly the Starter Jobs project.</p>
             </div>
             <h3>Aryan Jabbari</h3>
-            <div class="divInt">
+            <!--<div class="divInt">
               <div class="circleBoxLeft"></div>
-            </div>
+            </div>-->
             <p>I am a graduate student at CUNY Queens College and an IT aide at Queens College&#39;s Academic Advising Center. In
             addition to learning at Queens College, I am an active student at Coursera and regularly take computer science courses
             online. I am interested in using technology to help others, especially those in Queens county. My principal focuses at
@@ -123,7 +123,7 @@
         </div><?php include('right-nav.php') ?>
       </div>
     </div>
-  </div><?php include('footer.php') ?>
+  </div>
   <!-- /container -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
   <script src="/theme/bootstrap-collapse.js"></script></body>

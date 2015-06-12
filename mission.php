@@ -15,18 +15,19 @@
     <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet" />
     <link href="/theme/local.css" rel="stylesheet" />
     <link href="/theme/pygments.css" rel="stylesheet" />
-    <!-- So Firefox can bookmark->"abo this site" -->
   </head>
-  <body><?php include 'header.php'; ?>
+
+  <body>
+  <?php include 'header.php'; ?>
   <div class="container">
     <div class="content">
       <div class="row">
         <div class="span9">
-          <section id="content" class="body">
-            <h1 class="content-title">Mission</h1>
+          <div class="body">
+            <div class="content-title"><h1 class="content-title">Mission</h1></div>
             <img src="../images/lib1.jpg" width="650px" alt="img" title="lib1.jpg" />
             <h2>Queens College Mission Statement</h2>
-            <p>The mission of Queens College is to prepare students to become leading citizens of an increasingly global society.
+            <div><p>The mission of Queens College is to prepare students to become leading citizens of an increasingly global society.
             The college seeks to do this by offering its exceptionally diverse student body a rigorous education in the liberal
             arts and sciences under the guidance of a faculty that is dedicated to the pursuit of excellence and the expansion of
             the frontiers of knowledge. Its goal is that students learn to think critically, address complex problems, explore
@@ -46,13 +47,17 @@
             <h2>The Queens College Incubator</h2>
             <p>The Incubator seeks to carry forward the mission of the college by attracting high tech business to campus and
             giving them access to the diverse and talented students, staff and faculty of the college. It is the ambititon of the
-            incubator to reflect the tremendous diversity and resoucefulnees of the many ethnic communities of Queens itself.</p>
-          </section>
-        </div><?php include('right-nav.php') ?>
+            incubator to reflect the tremendous diversity and resoucefulnees of the many ethnic communities of Queens itself.</p></div>
+          </div>
+        </div>
+        <?php include('right-nav.php') ?>
       </div>
     </div>
-  </div><?php include('footer.php') ?>
+  </div>
+
+  
   <!-- /container -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
-  <script src="/theme/bootstrap-collapse.js"></script></body>
+  <script src="/theme/bootstrap-collapse.js"></script>
+  </body>
 </html>
