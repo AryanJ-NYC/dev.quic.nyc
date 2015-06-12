@@ -7,7 +7,7 @@ body {
 	height: 100%;
 }
 
-.body {
+.body, .formsection {
 	background-color: rgba(240,240,240,.7);
 }
 
