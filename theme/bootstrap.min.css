@@ -1,6 +1,7 @@
 body {
 	background-image: url("/images/qc.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 } 
 .container {
 	height: 100%;
