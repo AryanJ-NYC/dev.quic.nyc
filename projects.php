@@ -32,11 +32,11 @@
             these various ethnic groups.</p>
             <ul>
               <li>
-                <a href="http://www.seriouseats.com/2014/10/where-to-eat-chinese-best-restaurants-flushing-queens-chinatown-nyc.html">
+                <a href="http://www.seriouseats.com/2014/10/where-to-eat-chinese-best-restaurants-flushing-queens-chinatown-nyc.html" target="_blank">
                 How to Eat Flushing: A One-Day Food Tour of NYC&#39;s Greatest Chinatown</a>
               </li>
               <li>
-                <a href="//www.thrillist.com/eat/new-york/queens/the-definitive-eating-guide-to-flushing-queens-thrillist-new-york">
+                <a href="//www.thrillist.com/eat/new-york/queens/the-definitive-eating-guide-to-flushing-queens-thrillist-new-york" target="_blank">
                 The Definitive Eating Guide To Flushing, Queens</a>
               </li>
             </ul>

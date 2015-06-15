@@ -41,7 +41,7 @@
               Software Development, Android Applications, Arduino Projects, 3D Printing and more.</p>
             </div>
             <h3>
-              <a href="/images/Matthew_Blanco_Resume.pdf">Matthew Blanco</a>
+              <a href="/images/Matthew_Blanco_Resume.pdf" target="_blank">Matthew Blanco</a>
             </h3>
             <div class="divInt">
               <div class="circleBoxLeft">
@@ -64,7 +64,7 @@
               with those on these trips has given me the empathic foundation with which I live my life everyday. Along with my
               volunteer service I spent time collecting and fundraising for the Atlanta Community Food Bank to support the less
               fortunate in the community. My personal website is 
-              <a href="http://Matthew-Blanco.ddns.net">Matthew Blanco</a>.</p>
+              <a href="http://Matthew-Blanco.ddns.net" target="_blank">Matthew Blanco</a>.</p>
             </div>
             <h3>Kenneth Goodman</h3>
             <div class="divInt">
