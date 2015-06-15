@@ -78,7 +78,9 @@
 		</div>
 		<div style='margin-top:30px;margin-bottom:50px;text-align:center;'><input id="submit" type='submit' name='submit' value='Submit' /></div>
 	</div></form>
-	</div></div></div></div>
+	</div><?php include('right-nav.php') ?>
+	</div>
+	</div></div></div>
 
 </body>
 </html>
