@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Queens College Incubator Application</title>
@@ -15,15 +15,17 @@
     <link href="./theme/pygments.css" rel="stylesheet">
     <script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="./js/mail.js"></script>
-
 </head>
 
 <body>
 <?php include('header.php'); ?>
+<div class='container'>
 
-<form id="form" method = "post">
-	<div class='container'>
-	<div class='content'>
+	<div class="content">
+	<div class="row">
+	<div class="span9">
+	<form id="form" method = "post">
+	<div class="body">
 		<h2>City University of New York - Queens College Incubator Application</h2>
 		<br>
 		<div class="error"></div>
@@ -75,9 +77,8 @@
 		  <p>Additional Bios/Etc <input type='file' name='bios' /></p>
 		</div>
 		<div style='margin-top:30px;margin-bottom:50px;text-align:center;'><input id="submit" type='submit' name='submit' value='Submit' /></div>
-	</div>
-	</div>
+	</div></form>
+	</div></div></div></div>
 
-</form>
 </body>
 </html>

@@ -22,7 +22,7 @@
     <div class="content">
       <div class="row">
         <div class="span9">
-          <section id="content" class="body">
+          <div class="body">
             <h1 class="content-title">Projects</h1>
             <h2>Flushing Chamber of Commerce</h2>
             <p>An important part of the economy of Flushing is restaurants. Flushing was primarily settled by Taiwanese and other
@@ -40,10 +40,11 @@
                 The Definitive Eating Guide To Flushing, Queens</a>
               </li>
             </ul>
-          </section>
-        </div><?php include('right-nav.php') ?>
+          </div>
+        </div>
+        <?php include('right-nav.php') ?>
       </div>
-    </div><?php include('footer.php') ?>
+    </div>
   </div>
   <!-- /container -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 

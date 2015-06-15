@@ -8,34 +8,14 @@
     <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet" />
     <link href="/theme/local.css" rel="stylesheet" />
     <link href="/theme/pygments.css" rel="stylesheet" />
-    <style>
-        body {
-        background-image: url("/images/qc.jpg");
-		height:100%;
-        } 
-		.container{
-			height:100%;
-		}
-        .front_page{
-        background-color: rgba(240,240,240,.7);
-        }
-        .content-title{
-                text-align:center;
-        }
- footer{
-	position:absolute;
-   bottom:0;
-   height:60px;   /* Height of the footer */
-   text-align:center;
-}
-</style>
+
   </head>
   <body><?php include 'header.php'; ?>
   <div class="container">
     <div class="content">
       <div class="row">
         <div class="span9">
-          <div class="front_page">
+          <div class="body">
             <div class="content-title">
             <h1>The Queens College Incubator</h1>Kissena Boulevard, Flushing, New York</div>
             <div>
@@ -56,12 +36,15 @@
               </p>
             </div>
           </div>
-        </div><?php include('right-nav.php') ?>
+        </div>
+        <?php include('right-nav.php') ?>
       </div>
     </div>
-  </div>
-	<?php include('footer.php') ?>
+
+    
   <!-- /container -->
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
-  <script src="/theme/bootstrap-collapse.js"></script></body>
+  <script src="/theme/bootstrap-collapse.js"></script>
+  </body>
 </html>
