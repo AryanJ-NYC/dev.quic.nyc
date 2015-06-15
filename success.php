@@ -25,12 +25,14 @@
           <section id="content" class="body">
             <center>
               <h1 class="content-title">Success!</h1>
-              <h3>Work in progress...</h3>
             </center>
           </section>
-    </div><?php include('footer.php') ?>
+        </div><?php include 'right-nav.php'; ?>
+      </div>
+    </div>
   </div>
+  </body>
   <!-- /container -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
-  <script src="./theme/bootstrap-collapse.js"></script></body>
+  <script src="./theme/bootstrap-collapse.js"></script>
 </html>
