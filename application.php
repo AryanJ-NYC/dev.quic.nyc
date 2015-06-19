@@ -24,7 +24,7 @@
 	<div class="content">
 	<div class="row">
 	<div class="span9">
-	<form id="form" method = "post">
+	<form id="form" method ="post" enctype="multipart/form-data">
 	<div class="body">
 		<h2>City University of New York - Queens College Incubator Application</h2>
 		<br>
