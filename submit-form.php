@@ -8,10 +8,10 @@ function get($name) {
 }
 
 # who we are sending the email to 'admin', example provided
-$to = "admin@gmail.com"; 
+$to = "kevinramsunder4@gmail.com"; 
 
 # must be sent from a server email following SMTP, example provided 
-$headers = "From: someuser@webhost.com";
+$headers = "From: info@quic.nyc";
 
 $fields = array(
     "venturename" => "Venture Name:",
