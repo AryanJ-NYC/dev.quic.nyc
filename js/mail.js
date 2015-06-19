@@ -7,7 +7,9 @@ $(document).ready(function () {
         $.ajax({
             type: 'POST',
             url: 'submit-form.php',
-            data: $('#form').serialize(),
+            contentType: false,
+            processData: false,
+            data: new FormData(this),
             dataType: "text",
             
             success: function(result) {
