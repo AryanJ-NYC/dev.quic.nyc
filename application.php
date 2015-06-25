@@ -44,10 +44,11 @@
 		  <h3>CUNY Incubator</h3>
 		  <p>How many workstations do you need now and in the next 6 months? <input type='text' name='workstations' style='width:50px;' /></p>
 		  <p>How many new full-time posititons do you expect to add to your company each year for the next two years? <input type='text' name='numPos' style='width:60px; margin-left:5px;' /></p>
-		  <p>Are you a new business to New York State, or an existing business? <input type='radio' name='newexisting' value='new' /> New <input type='radio' name='newexisting' value='old' /> Existing</p>
+		  <p>Are you a new business to New York State or an existing business? <input type='radio' name='newexisting' value='new' /> New <input type='radio' name='newexisting' value='old' /> Existing</p>
 		  <p>Have you participated in a startup accelerator/incubator in the past? If so, which one(s)?<br /><input type='text' name='participatedBefore' /></p>
 		  <p>How did you hear about the incubator?<br /><input type='text' name='hearAbout' /></p>
 		  <p>Do you know anyone who works in the incubator now or has worked there in the past? If so, who?<br /><input type='text' name='knowAnyone' /></p>
+		  <p>Are you interested in Queens College housing at <a href="http://queenscollegehousing.com/" target="_blank">The Summit</a>? <input type='radio' name='housing' value='yes' />Yes <input type='radio' name='housing' value='no' /> No</p>
 		</div>
 		 <div class='formsection'>
 		  <h3>Business Plan</h3>
