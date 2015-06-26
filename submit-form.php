@@ -66,6 +66,7 @@ $fields = array(
     "participatedBefore" => "Have you participated in a startup accelerator/incubator in the past? If so, which one(s)?:",
     "hearAbout" => "How did you hear about the incubator?:",
     "knowAnyone" => "Do you know anyone who works in the incubator now or has worked there in the past? If so, who?:",
+    "housing" => "Are you interested in Queens College housing at The Summit?:",
     "lb2" => "linebreak",
     "howMuchCapital" => "How much capital has been raised/invested to date? What are the sources of capital raised/invested to date?:",
     "declare" => "Define your venture in a single declarative sentence:",
