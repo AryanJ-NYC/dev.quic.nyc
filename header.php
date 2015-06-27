@@ -17,7 +17,8 @@
             <li><a href="/research.php">Research</a></li>
             <li><a href="/fellows.php">Fellows</a></li>
             <li><a href="/staff.php">Staff</a></li>
-            <li><a href="/application.php">Application</a></li>
+            <li><a href="/application.php">QUIC Application</a></li>
+            <li><a href="/student-application.php">Student Application</a></li>
         </ul>
         </div>
         
