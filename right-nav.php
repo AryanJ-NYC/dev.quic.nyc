@@ -18,7 +18,7 @@
         <li class="nav-header"> 
         Social
         </li>
-        <li><a href="https://www.facebook.com/pages/Queens-College-Tech-Incubator" target="_blank">Facebook</a></li>
+        <li><a href="https://www.facebook.com/pages/Queens-College-Tech-Incubator/651083375025310" target="_blank">Facebook</a></li>
         <li><a href="http://twitter.com/QCTechIncubator" target="_blank">Twitter</a></li>
     </ul>
     </div>
