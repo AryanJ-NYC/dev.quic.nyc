@@ -12,7 +12,7 @@
                     <li <?php if ($thisPage=="projects.php") echo "class=\"active\"";?>><a href="projects.php">Projects</a></li>
                     <li <?php if ($thisPage=="staff.php") echo "class=\"active\"";?>><a href="staff.php">Staff</a></li>
                     <li <?php if ($thisPage=="contact.php") echo "class=\"active\"";?>><a href="contact.php">Contact</a></li>
-                    <li <?php if ($thisPage=="apply.php") echo "class=\"active\"";?>><a class="btn" href="apply.php">APPLY NOW</a></li>
+                    <li <?php if ($thisPage=="applynow.php") echo "class=\"active\"";?>><a class="btn" href="applynow.php">APPLY NOW</a></li>
                 </ul>
             </div>
         </div>

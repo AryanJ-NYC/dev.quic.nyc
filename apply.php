@@ -5,7 +5,7 @@
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	
-	<title>Apply Now</title>
+	<title>Ventures - Apply Now</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.ico" type="image/x-icon"/>
 	
@@ -273,10 +273,6 @@
 					<h4>Address</h4>
 					<address>
 						65-30 Kissena Boulevard, Flushing, NY 11367
-					</address>
-					<h4>Phone:</h4>
-					<address>
-						(add) a phone number here
 					</address>
 				</div>
 

@@ -51,4 +51,29 @@ $(document).ready(function () {
             }
         });
     });
+
+    $('#student-apply-form').submit(function(event) {
+        event.preventDefault();
+
+        $.ajax({
+            type: 'POST',
+            url: 'student-submit-form.php',
+            contentType: false,
+            processData: false,
+            data: new FormData(this),
+            dataType: "text",
+            
+            success: function(result) {
+                if (result == 'success') {
+                    window.location.assign("success.php");
+                } else {
+                    $('html, body').animate({ scrollTop: 0 }, 'slow');
+                    if(!failedOnce) {
+                        failedOnce = true;
+                        $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
+                    } 
+                } 
+            }
+        });
+    });
 });

@@ -14,21 +14,17 @@ function get($name) {
 # generate message from the fields, save error messages in second parameter
 function generateMessage($fields,& $emptyfields) {
     $message = "";
-
     foreach ($fields as $key => $value) {
         if(strcmp($value, "linebreak") == 0) {
             $message .= "\n";
             continue;
         }
-
         $fieldInput = get($key);
         if($fieldInput === "This field is required.") {
             array_push($emptyfields, $key);
         }
-
         $message .= $value . " " . $fieldInput . "\n"; 
     }
-
     return $message;
 }
 
@@ -41,6 +37,8 @@ function sendEmail($to, $subject, $message, $from) {
     $mailer->addAddress($to);
     $mailer->Subject = $subject;
     $mailer->Body = $message;
+    $mailer->AddAttachment($_FILES["unofficialTranscript"]["tmp_name"], $_FILES["unofficialTranscript"]["name"]);
+    $mailer->AddAttachment($_FILES["resume"]["tmp_name"], $_FILES["resume"]["name"]);
     $mailer->send();
 }
 
@@ -50,11 +48,19 @@ $from = "info@quic.nyc";
 
 # fields on the form
 $fields = array(
-    "name" => "Name:",
+    "applicant" => "Name of Applicant:",
+    "phone" => "Phone:",
     "email" => "Email:",
-    "phone" => "Phone Number:",
     "lb1" => "linebreak",
-    "text" => "Message:"
+    "degree" => "Degree in progress?:",
+    "gradyear" => "Graduation Year:",
+    "gradseason" => "Graduation Season:",
+    "citizenship" => "Citizenship:",
+    "credstograd" => "Credits to Graduate:",
+    "lb2" => "linebreak",
+    "programmingExperience" => "Programming Experience:",
+    "personalstatement" => "Personal Statement",
+    "lb5" => "linebreak"
 );
 
 # get message and error values
@@ -64,7 +70,7 @@ $message = generateMessage($fields, $errorValues);
 # if no fields are empty, send the email. 
 # echo result to AJAX script
 if(count($errorValues) == 0) {
-    $subject = "QC Incubator: Message from " . get('name');
+    $subject = "QC Incubator: " . get('applicant') . " Form Submission";
     sendEmail($to, $subject, $message, $from);
     echo ("success");
 } else {

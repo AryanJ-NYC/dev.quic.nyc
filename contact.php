@@ -86,10 +86,6 @@
 					<address>
 						65-30 Kissena Boulevard, Flushing, NY 11367
 					</address>
-					<h4>Phone:</h4>
-					<address>
-						(add) a phone number here
-					</address>
 				</div>
 
 			</aside>

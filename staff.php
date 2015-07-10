@@ -64,14 +64,14 @@
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
                 <header class="page-header"><h1 class="page-title">Fellows</h1></header>
-                <h3>Fellow One</h3>
-                <p>Fellow One's bio</p>
+                <h3>Carlos Del Rosario</h3>
+                <p>Born and raised in the Dominican Republic, I moved to the United States in September of 2010. I am currently a Senior at Queens College; Originally pursuing a degree in Telecommunications Engineering I decided to get into the Computer Science field. Technology and Computers have always been of my interest; I enjoy learning new things and creating something from nothing. Programming has been something I've enjoyed since the day I wrote my first line of code. This is why participating in the Queens College Incubator to help create things that can benefit society while at the same time give experience and teach me new thing is a really great opportunity. In my spare time I enjoy learning about new technologies and work on small projects. Among technologies that call my attention right now are Software Development, Android Applications, Arduino Projects, 3D Printing and more.</p>
 
-                <h3>Fellow Two</h3>
-                <p>Fellow Two's bio</p>
+                <h3>Aryan Jabbari</h3>
+                <p>I am a graduate student at CUNY Queens College and an IT aide at Queens College's Academic Advising Center. In addition to learning at Queens College, I am an active student at Coursera and regularly take computer science courses online. I am interested in using technology to help others, especially those in Queens county. My principal focuses at the Queens College technology incubator is on the Starter Jobs and Flushing Chamber of Commerce projects.</p>
 
-                <h3>Fellow Three</h3>
-                <p>Fellow Three's bio</p>           
+                <h3>Kevin Ramsunder</h3>
+                <p>I am a third year undergraduate student at Queens College. I started programming as a hobby in high school after participating in my school's Robotics program. Nowadays, my main goal in this field is to use technology to improve every aspect of our daily lives. Aside from my own personal projects, I enjoy coding collaboratively with others who share the same passion for creating useful and innovative software. I am also a believer in the Open-Source movement and its mission to make software free for the community.</p>           
             </article>
 
 

@@ -65,10 +65,7 @@
 				<p>Queens College boasts a fitness center that features cardiovascular machines (elliptical cross trainers, stair steppers, cycles, treadmills and the new ARC trainer), a free weight area and a Cybex selectorized weight circuit. Trained recreation staff members are available to offer assistance with all of the equipment. Personal Training or Group Training sessions can be scheduled for those who want more personal attention. The Aquatics Center is located on the first floor of Fitzgerald Gymnasium. The pool, which is 25 yards long and six lanes wide, is utilized for lap swimming during recreeation hours. The Queens College Tennis Center houses six courts and is located just south of Fitzgerald Gymnasium. Our newly renovated outdoor track is located on the southwest corner of the Queens College campus. It is a 400 meter, eight lane track which is utilized from dawn until dusk for lap running and walking.</p>
 
 				<h3>The Summit</h3>
-				<p>Queens College's first residence hall, Summit Apartments, opened in August 2009. Located in the heart of the campus, just south of Fitzgerald Gymnasium, the low-rise, U-shaped, 506-bed building has three wings of varying stories to complement the heights of the surrounding buildings.   In keeping with Queens College’s commitment to sustainability, the design of The Summit met Leadership in Energy and Environmental Design (LEED) requirements for gold certification. The LEED rating system is overseen by the United States Green Building Council, which awards certification to structures that prevent waste and conserve energy in measurable ways.</p>
-
-				<h3>Servers, Buildings.. etc</h3>
-				<p>Work in progress..</p>				
+				<p>Queens College's first residence hall, Summit Apartments, opened in August 2009. Located in the heart of the campus, just south of Fitzgerald Gymnasium, the low-rise, U-shaped, 506-bed building has three wings of varying stories to complement the heights of the surrounding buildings.   In keeping with Queens College’s commitment to sustainability, the design of The Summit met Leadership in Energy and Environmental Design (LEED) requirements for gold certification. The LEED rating system is overseen by the United States Green Building Council, which awards certification to structures that prevent waste and conserve energy in measurable ways.</p>		
 			</article>
 
 
