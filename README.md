@@ -28,7 +28,7 @@ about.php: Need more information about our facilities such as our building and o
 
 ~~footer.php: get the copyright year dynamically using PHP.~~
 
-~~contact.php & signup.php: add phone number ~~
+~~contact.php & signup.php: add phone number~~
 
 ~~footer.php: add a phone number (or just remove the field for it)~~
 
