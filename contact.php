@@ -22,6 +22,12 @@
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
+
+	<script type="text/javascript">
+	 var RecaptchaOptions = {
+	    theme : 'clean'
+	};
+	</script>
 </head>
 
 <body>
@@ -68,9 +74,20 @@
 							</div>
 						</div>
 						<br>
-						<div class="row">
-							<div class="col-sm-12 text-center">
-								<input class="col-sm-12 btn btn-default btn-lg" type='submit' name='submit' value="Submit Message">
+						<div class="row container">
+							<center>
+							<div class='col-sm-8'>
+							<?php
+					          require_once('./assets/libraries/reCAPTCHA/recaptchalib.php');
+					          $publickey = "6LdkmwkTAAAAAFniuKdwMSHD-s90jEVT1uptwsEh"; 
+					          echo recaptcha_get_html($publickey);
+					        ?>
+					        </div>
+							<br>
+							</center>
+							<div class="col-sm-8 text-center">
+							<br>
+								<input class="btn btn-default btn-lg" type='submit' name='submit' value="Submit Message">
 							</div>
 						</div>
 					</form>
@@ -104,6 +121,7 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<script src="assets/js/mail.js"></script>
 </body>
 </html>

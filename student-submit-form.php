@@ -1,6 +1,7 @@
 <?php 
 # PHP Mailer library for attachments
 require_once './assets/libraries/PHPMailer/PHPMailerAutoload.php';
+require_once './assets/libraries/reCAPTCHA/recaptchalib.php';
 
 # get the value from the input field
 function get($name) {
@@ -40,6 +41,18 @@ function sendEmail($to, $subject, $message, $from) {
     $mailer->AddAttachment($_FILES["unofficialTranscript"]["tmp_name"], $_FILES["unofficialTranscript"]["name"]);
     $mailer->AddAttachment($_FILES["resume"]["tmp_name"], $_FILES["resume"]["name"]);
     $mailer->send();
+}
+
+$privatekey = "6Ld6mQkTAAAAAEoEbeM_8w4sNQ6KLuqa7MyziM4L";
+
+$resp = recaptcha_check_answer ($privatekey,
+                            $_SERVER["REMOTE_ADDR"],
+                            $_POST["recaptcha_challenge_field"],
+                            $_POST["recaptcha_response_field"]);
+
+if (!$resp->is_valid) {
+    echo ("cap error");
+    return;
 }
 
 # to and from fields for the email
