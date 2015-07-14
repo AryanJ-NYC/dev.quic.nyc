@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     
-    <title>Success!</title>
+    <title>Apply Now</title>
 
     <link rel="shortcut icon" href="assets/images/gt_favicon.ico" type="image/x-icon"/>
 
@@ -31,10 +31,17 @@
         <!-- Do not change these --> <br> <br> <br> <!-- Do not change these -->
 
         <br><br><br><br>
-        <h1 class="thin">Success!</h1>
+        <h1 class="thin">Apply Now.</h1>
         <br>
-        <h3 class="thin">Your form has been successfully submitted to our administrators. Thank you for your interest in our Incubator, we will get back to you as soon as possible.</h3>
+        <h2 class="thin">Are you applying as a student or a venture?</h2>
         <br><br>
+        
+        <p>
+        <a href="studentapply.php" class="btn btn-default btn-lg" role="button">Student!</a>
+        <i class="btn"></i>
+        <a class="btn btn-default btn-lg" href="apply.php" role="button">Venture!</a></p>
+        </p>
+
 
     <section id="social">
         <div class="container">
