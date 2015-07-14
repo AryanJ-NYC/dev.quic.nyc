@@ -45,10 +45,7 @@
 				</header>
 				<h2>Flushing Chamber of Commerce</h2>
 				<p>
-					An important part of the economy of Flushing is restaurants. Flushing was primarily settled by Taiwanese and other Mandarin speaking Chinese immigrants. 
-					This is the cuisine for which the neighborhood is most well known. 
-					There are additional communities of Irish, Greek, Russian, and Italian communities, as well as communities of Indians, Sri Lankans, Malaysians, and Hispanics, mostly Colombians and Salvadorans.
-					We are compiling a map of the restaurants of these various ethnic groups.
+					An important part of the economy of Flushing is restaurants. Flushing was primarily settled by Taiwanese and other Mandarin speaking Chinese immigrants. The Queens College Tech Incubator, with help from the Flushing Chamber of Commerce, is compiling a map of the restaurants of these various cuisines.
 				</p>
 
 				<p>
@@ -61,14 +58,20 @@
 	                The Definitive Eating Guide To Flushing, Queens</a>
 				</p>
 	
-				<h2>Building Research</h2>
+				<h2>Colorblind Support</h2>
 				<p>
-					In partnership with the building performance lab at the CUNY School of Professional Studies and the CUNY Institute of Software Design and Development the Queens Incubator 
-					is applying machine learning to the prediction of tempratures and energy consumption of large buildings. 
-					Every year, New York City Government (and its residents) spend literally billions of dollars to heat and cool their living and work space. 
-					Sadly much of that spending is wasteful with buildings being heated and cooled at the same time. 
-					Our project hopes to guide New York City agencies on how to make their workspace more comfortable in an energy efficient manner.
+					In an effort to help the colorblind community, the Queens College Tech Incubator is developing simple, yet efficient, Android, iOS and web apps that transform colored pictures to grayscale pictures.
 				</p>
+                
+                <h2>Building Temperature Maps</h2>
+                <p>
+                    Room temperature data from the CUNY Graduate Center has been collected over time.  The Queens College Tech Incubator will represent this data with simple color codes to help building contractors and other personnel make the CUNY Graduate Center more energy efficient.
+                </p>
+                
+                <h2>Science Lab Support</h2>
+                <p>
+                    Technology is an everyday part of students' lives.  The Queens College Tech Incubator is working closely with science labs at Queens College to make teaching more efficient and learning more interactive.
+                </p>
 			</article>
 			<!-- /Article -->
 			
