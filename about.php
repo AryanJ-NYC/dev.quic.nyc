@@ -54,7 +54,6 @@
 						<li><a href="index.html" target="_blank">Home Page</a><br><span class="small text-muted">Return to the main landing page.</span></li>
 						<li><a href="http://www.qc.cuny.edu/Pages/home.aspx" target="_blank">Queens College</a><br><span class="small text-muted">View our college's main website.</span></li>
 						<li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
-						<li><a href="https://github.com/QuicNYC" target="_blank">Github</a><br><span class="small text-muted">Keep track of progress on our current projects.</span></li>
 					</ul>
 			</aside>
 

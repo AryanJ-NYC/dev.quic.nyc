@@ -30,7 +30,7 @@ if(!ini_get('date.timezone')) {
                     </div>
 
                     <div class="col-md-6 widget">
-                        <h3 class="widget-title">Contact Us</h3>
+                        <h3 class="widget-title"><a href="contact.php">Contact Us</a></h3>
                         <div class="widget-body">
                             <p>Get in contact with us through any of the available forms above. Students who want to join the Incubator as developers can apply for a position, while ventures can apply to have their product supported by our Incubator.</p>
                         </div>
