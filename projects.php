@@ -85,8 +85,8 @@
 				</div>
 				<div class="row widget">
 					<div class="col-xs-12">
-						<h4>Building Research at John Jay College</h4>
-						<p><img src="assets/images/cunyjj.png" alt="John Jay College"></p>
+						<h4>Building Research at CUNY Graduate Center</h4>
+						<p><img src="assets/images/CUNY_Graduate_Center_by_David_Shankbone.jpg" alt="John Jay College"></p>
 					</div>
 				</div>
 
