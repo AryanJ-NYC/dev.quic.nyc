@@ -36,12 +36,14 @@
         <h2 class="thin">Are you applying as a student or a venture?</h2>
         <br><br>
         
-        <p>
-        <a href="studentapply.php" class="btn btn-default btn-lg" role="button">Student!</a>
-        <i class="btn"></i>
-        <a class="btn btn-default btn-lg" href="apply.php" role="button">Venture!</a></p>
-        </p>
-
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
+                <a class="btn btn-default btn-lg" href="studentapply.php" role="button">Student!</a></div>
+                <div class="col-md-4 col-md-offset-4 col-xs-12 col-sm-4 col-sm-offset-4 col-lg-4">
+                <a class="btn btn-default btn-lg" href="apply.php" role="button">Venture!</a></div>
+            </div>
+        </div>
 
     <section id="social">
         <div class="container">

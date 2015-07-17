@@ -60,7 +60,7 @@
 		As one of the most culturally diverse campuses in the country, Queens College faces special challenges and opportunities. By balancing tradition and innovation in the service of this diversity, it represents the future of the nation.<br>
 		<br><br><br>
 
-		<p><a href="about.php" class="btn btn-default btn-lg" role="button">Learn more about our Tech Incubator!</a></p>
+		<p><a href="about.php" class="btn btn-default btn-md" role="button">Learn more about our Tech Incubator!</a></p>
 		</p>	
 	</div>
 	<!-- /Intro-->
