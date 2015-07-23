@@ -65,7 +65,7 @@
                 
                 <h2>Building Temperature Maps</h2>
                 <p>
-                    Room temperature data from the CUNY Graduate Center has been collected over time.  The Queens College Tech Incubator will represent this data with simple color codes to help building contractors and other personnel make the CUNY Graduate Center more energy efficient.
+                    Room temperature data from CUNY John Jay has been collected over time.  The Queens College Tech Incubator will represent this data with simple color codes to help building contractors and other personnel make CUNY John Jay more energy efficient.
                 </p>
                 
                 <h2>Science Lab Support</h2>
@@ -85,8 +85,8 @@
 				</div>
 				<div class="row widget">
 					<div class="col-xs-12">
-						<h4>Building Research at CUNY Graduate Center</h4>
-						<p><img src="assets/images/CUNY_Graduate_Center_by_David_Shankbone.jpg" alt="John Jay College"></p>
+						<h4>Building Research at CUNY John Jay</h4>
+						<p><img src="assets/images/cunyjj.png" alt="John Jay College"></p>
 					</div>
 				</div>
 
