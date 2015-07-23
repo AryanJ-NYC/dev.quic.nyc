@@ -42,6 +42,11 @@
 				<header class="page-header"><h1 class="page-title">About Us</h1></header>
 				<h3>The Queens College Incubator</h3>
 				<p>The Incubator seeks to carry forward the mission of the college by attracting high tech business to campus and giving them access to the diverse and talented students, staff and faculty of the college. It is the ambititon of the incubator to reflect the tremendous diversity and resoucefulnees of the many ethnic communities of Queens itself.</p>		
+				
+				<h3><a href="http://www.cs.qc.cuny.edu/index.html" target="_blank">Our Computer Science Department</a></h3>
+				<p>Computer Science is an exciting and rapidly changing discipline, and students at Queens College have the opportunity to study towards B.A., B.S., M.A., and Ph.D. degrees at the cutting edge of this expanding field.
+				The CS Faculty at QC is composed of leading researchers in many areas of computer science, including: computational linguistics, datamining, real-time computing, security, speech technology, and data visualization.
+				</p><p>The diverse academic, industrial, and professional backgrounds of the full-time and adjunct faculty allow the Computer Science Department to offer a wide range of courses for our students.   In addition, the research programs of full-time faculty enrich the intellectual life of the college and create opportunities for graduate and undergraduate students.</p>
 			</article>
 
 
@@ -51,7 +56,7 @@
 				<div class="widget">
 					<h4>Quick Links</h4>
 					<ul class="list-unstyled list-spaces">
-						<li><a href="index.html" target="_blank">Home Page</a><br><span class="small text-muted">Return to the main landing page.</span></li>
+						<li><a href="index.php" target="_blank">Home Page</a><br><span class="small text-muted">Return to the main landing page.</span></li>
 						<li><a href="http://www.qc.cuny.edu/Pages/home.aspx" target="_blank">Queens College</a><br><span class="small text-muted">View our college's main website.</span></li>
 						<li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
 					</ul>
@@ -60,11 +65,15 @@
 			<!-- Article main content -->
 			<article class="col-sm-8 maincontent">
 				<header class="page-header"><h1 class="page-title">About Our Facilities</h1></header>
-				<h3>Fitzgerald Gymnasium</h3>
+				<h3><a href="http://www.qc.cuny.edu/about/business/rental/athletics/Pages/default.aspx" target="_blank">Fitzgerald Gymnasium</a></h3>
 				<p>Queens College boasts a fitness center that features cardiovascular machines (elliptical cross trainers, stair steppers, cycles, treadmills and the new ARC trainer), a free weight area and a Cybex selectorized weight circuit. Trained recreation staff members are available to offer assistance with all of the equipment. Personal Training or Group Training sessions can be scheduled for those who want more personal attention. The Aquatics Center is located on the first floor of Fitzgerald Gymnasium. The pool, which is 25 yards long and six lanes wide, is utilized for lap swimming during recreeation hours. The Queens College Tennis Center houses six courts and is located just south of Fitzgerald Gymnasium. Our newly renovated outdoor track is located on the southwest corner of the Queens College campus. It is a 400 meter, eight lane track which is utilized from dawn until dusk for lap running and walking.</p>
 
-				<h3>The Summit</h3>
+				<h3><a href="http://queenscollegehousing.com/" target="_blank">The Summit</a></h3>
 				<p>Queens College's first residence hall, Summit Apartments, opened in August 2009. Located in the heart of the campus, just south of Fitzgerald Gymnasium, the low-rise, U-shaped, 506-bed building has three wings of varying stories to complement the heights of the surrounding buildings.   In keeping with Queens College’s commitment to sustainability, the design of The Summit met Leadership in Energy and Environmental Design (LEED) requirements for gold certification. The LEED rating system is overseen by the United States Green Building Council, which awards certification to structures that prevent waste and conserve energy in measurable ways.</p>		
+				
+				<h3><a href="http://www.qc.cuny.edu/about/directions/Pages/Shuttle.aspx" target="_blank">The Queens College Shuttle</a></h3>
+				<p>To reduce commute time and improve access to campus, Queens College launched a new shuttle bus service on August 28. The shuttle offers a faster, more convenient way to travel between the college and the two major transit hubs serving our community, Jamaica Station and Flushing-Main Street Station.
+				The Queens College shuttle operates seven days a week, providing non-stop service throughout the day between the campus and these two stations. It also provides cross-campus service throughout the day between Queens Hall and the Student Union Building.</p>
 			</article>
 
 
