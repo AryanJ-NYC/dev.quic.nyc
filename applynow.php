@@ -33,13 +33,13 @@
         <br><br><br><br>
         <h1 class="thin">Apply Now.</h1>
         <br>
-        <h2 class="thin">Are you applying as a student or a venture?</h2>
+        <h2 class="thin">Are you applying as a fellow or a venture?</h2>
         <br><br>
         
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
-                <a class="btn btn-default btn-lg" href="studentapply.php" role="button">Student!</a></div>
+                <a class="btn btn-default btn-lg" href="studentapply.php" role="button">Fellow!</a></div>
                 <div class="col-md-4 col-md-offset-4 col-xs-12 col-sm-4 col-sm-offset-4 col-lg-4">
                 <a class="btn btn-default btn-lg" href="apply.php" role="button">Venture!</a></div>
             </div>

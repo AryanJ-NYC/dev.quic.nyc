@@ -30,18 +30,21 @@
 .navbar-inverse .navbar-brand { font-family: "Open sans", helvetica, arial; font-size: 24px; color:white; padding:0 0 0 15px; margin:12px 0 0 0; }
 	.navbar-inverse .navbar-brand img { margin-top:-8px;}
 
+@media (min-width:767px) {
+	.dropdown:hover .dropdown-menu {display: block;  margin-top: 0;}
+}
 .navbar-nav .dropdown-menu {
 	left:-5px;
 	font-size: 13px;
-	background-color: rgba(151, 0, 0, .5);
+	background-color: rgba(151, 0, 0, 1);
 	border: 0px none;
 	-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
-.navbar-nav .dropdown-menu > li > a { color:rgba(255, 255, 255, .7); padding:7px 20px; }
+.navbar-nav .dropdown-menu > li > a { color:rgba(255, 255, 255, 1); padding:7px 20px; }
 	.navbar-nav .dropdown-menu > li > a:hover,
 	.navbar-nav .dropdown-menu > li > a:focus,
-	.navbar-nav .dropdown-menu > .active > a:hover{ background: rgba(255, 255, 255, .1); color:white; }
+	.navbar-nav .dropdown-menu > .active > a:hover{ background: rgba(255, 255, 255, .35); color:white; }
 
 .navbar-nav .dropdown-menu > .active > a,
 .navbar-nav .dropdown-menu > .active > a:focus { background: none; color:#fff; }
