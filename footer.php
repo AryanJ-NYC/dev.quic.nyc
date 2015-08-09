@@ -49,9 +49,11 @@ if(!ini_get('date.timezone')) {
                             <p class="simplenav">
                                 <a href="index.php">Home</a> | 
                                 <a href="about.php">About</a> |
-                                <a href="projects.php">Projects</a> |
-                                <a href="staff.php">Staff</a> |
+                                <a href="community.php">Community</a> |
                                 <a href="resources.php">Resources</a> |
+                                <a href="events.php">Events</a> |
+                                <a href="membership.php">Membership</a> |
+                                <a href="projects.php">Projects</a> |
                                 <a href="contact.php">Contact</a> |
                                 <b><a href="applynow.php">Apply Now</a></b>
                             </p>
