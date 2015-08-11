@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     
-    <title>Resources</title>
+    <title>Colorblind Support</title>
 
     <link rel="shortcut icon" href="assets/images/gt_favicon.ico" type="image/x-icon"/>
 
@@ -36,8 +36,6 @@
         </ol>
 
         <div class="row">
-            
-
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
                 <header class="page-header"><h1 class="page-title">Colorblind Support</h1></header>
@@ -56,9 +54,6 @@
                         <li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
                     </ul>
             </aside>
-            
-            
-
         </div>
     </div>  <!-- /container -->
     

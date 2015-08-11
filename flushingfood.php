@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     
-    <title>Resources</title>
+    <title>Flushing Food Map</title>
 
     <link rel="shortcut icon" href="assets/images/gt_favicon.ico" type="image/x-icon"/>
 
