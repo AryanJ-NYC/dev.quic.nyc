@@ -95,7 +95,8 @@ CREATE TABLE IF NOT EXISTS `venture` (
   `exec-summary` varchar(250) DEFAULT NULL,
   `presentation` varchar(250) DEFAULT NULL,
   `bios` varchar(250) DEFAULT NULL,
-  `timestamp` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP
+  `timestamp` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`email`, `timestamp`) 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
