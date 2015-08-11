@@ -26,6 +26,8 @@ SET time_zone = "+00:00";
 -- Table structure for table `contact`
 --
 
+use quic_nyc;
+
 CREATE TABLE IF NOT EXISTS `contact` (
   `Name` varchar(50) NOT NULL,
   `Email` varchar(75) NOT NULL DEFAULT '',
