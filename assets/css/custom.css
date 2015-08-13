@@ -1,0 +1,3 @@
+.thumb {
+    margin-bottom: 30px;
+}

@@ -37,7 +37,6 @@
 
         <div class="row">
             
-
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
                 <header class="page-header"><h1 class="page-title">Resources</h1></header>
@@ -60,20 +59,13 @@
                         <li><a href="http://www.qc.cuny.edu/Pages/home.aspx" target="_blank">Queens College</a><br><span class="small text-muted">View our college's main website.</span></li>
                         <li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
                     </ul>
-            </aside>
-            
-            
-
+            </aside>       
         </div>
     </div>  <!-- /container -->
     
 
     <!-- footer -->
     <?php include("./footer.php"); ?>
-        
-
-
-
 
     <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

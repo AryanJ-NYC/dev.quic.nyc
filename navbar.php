@@ -25,7 +25,7 @@
                             <li><a href="staff.php">Staff</a></li>
                             <li><a href="fellows.php">Fellows</a></li>
                             <li><a href="members.php">Members</a></li>
-                            <li><a href="members.php">Partner</a></li>
+                            <li><a href="partners.php">Partners</a></li>
                             <li><a href="committee.php">Advisory Committee</a></li>
                         </ul>
                     </li>
