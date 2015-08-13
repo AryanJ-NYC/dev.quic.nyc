@@ -59,8 +59,7 @@ if (!$resp->is_valid) {
 }
 
 # to and from fields for the email
-#$to = "TBrown@gc.cuny.edu"; 
-$to = "kevinramsunder4@gmail.com"; 
+$to = "TBrown@gc.cuny.edu"; 
 $from = "info@quic.nyc";
 
 # fields on the form
