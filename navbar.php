@@ -57,7 +57,7 @@
                     <li class="dropdown" <?php if ($thisPage=="projects.php") echo "class=\"active dropdown\"";?>>
                     <a href="projects.php" class="dropdown-toggle">Projects</a>
                         <ul class="dropdown-menu">
-                            <li><a href="flushingfood.php">Underground Flushing Food Map</a></li>
+                            <li><a href="http://flushing.quic.nyc">Underground Flushing Food Map</a></li>
                             <li><a href="colorblind.php">Colorblind Support</a></li>
                             <li><a href="buildings.php">Building Analytics</a></li>
                         </ul>
