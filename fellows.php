@@ -38,18 +38,58 @@
         <div class="row">
             
             <!-- Article main content -->
-            <article class="col-sm-8 maincontent">
-                <header class="page-header"><h1 class="page-title">Tech Incubator Fellows</h1></header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                        <article class="col-sm-8 maincontent">
+                <header class="page-header">
+                    <h1 class="page-title">Our Fellows</h1>
+                </header>
+                <h3>Matthew Blanco</h3>
+                <p>I am currently a senior at Queens College pursuing my Bachelor’s in Computer Science. I am lucky to have had     
+                family and friends who have given me courage when I thought I had none. Simply not wanting to disappoint these people        
+                whose favorable opinions I care so much about has increased my motivation and eventually my own confidence. This has     
+                developed into a will to keep fighting and always trying my hardest to accomplish any task at hand.</p>      
+                <p>Because I have been so lucky to have this network, the community as much as my academic goals have been the focus     
+                of my work. Service has been at the heart of what I do for the better part of my High School and Collegiate      
+                experience. My volunteer experience includes after school child care and tutoring in the Hell’s Kitchen community.       
+                I spent three hours a day with children who would otherwise have had nowhere to go after school, allowing them to        
+                study, do homework, and have a safe place within the community they could come together to be children for a few     
+                hours a night.</p>       
+                <p>I also participated in Habitat for Humanity service trips. I was and have been a huge proponent of the work done      
+                by Habitat for Humanity. Over the course of two service trips, I spent two weeks in Bayou La Batre, Alabama restoring        
+                the home of a family devastated by Hurricane Katrina and two weeks in the Appalachia Region of Tennessee constructing        
+                a new home for a family who never never had the chance to own one before. The time spent in these communities and        
+                with those on these trips has given me the empathic foundation with which I live my life everyday. Along with my     
+                volunteer service I spent time collecting and fundraising for the Atlanta Community Food Bank to support the less        
+                fortunate in the community.</p>
 
-<p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. <b>Fusce nec tellus sed augue semper porta</b>. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
+                <h3>Carlos Del Rosario</h3>
+                <p>Born and raised in the Dominican Republic, I moved to the United States in September of 2010. I am currently a Senior at Queens College; Originally pursuing a degree in Telecommunications Engineering I decided to get into the Computer Science field. Technology and Computers have always been of my interest; I enjoy learning new things and creating something from nothing. Programming has been something I've enjoyed since the day I wrote my first line of code. This is why participating in the Queens College Incubator to help create things that can benefit society while at the same time give experience and teach me new thing is a really great opportunity. In my spare time I enjoy learning about new technologies and work on small projects. Among technologies that call my attention right now are Software Development, Android Applications, Arduino Projects, 3D Printing and more.</p>
 
-<p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. <i>Curabitur tortor</i>. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. <b>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh</b>. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. </p>
+                <h3>Kenneth Goodman</h3>
+                <p>I am an Applied Mathematics Student with a concentration in Computer Science at Queens College. On my free time I        
+                study data analytics, number theory and video game design. At the Queens College incubator, my principal focus is on     
+                the STEM+C project. I hope to help improve learning in the fields related to STEM+C and to help students from various        
+                backgrounds succeed in fields that are so important.</p>
 
-<p>Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. <b>Ut fringilla</b>. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. </p>
+                <h3>Aryan Jabbari</h3>
+                <p>I am a graduate student at CUNY Queens College and an IT aide at Queens College's Academic Advising Center. In addition to learning at Queens College, I am an active student at Coursera and regularly take computer science courses online. I am interested in using technology to help others, especially those in Queens county. My principal focuses at the Queens College technology incubator is on the Starter Jobs and Flushing Chamber of Commerce projects.</p>
 
-<p>Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. <b>Morbi in ipsum sit amet pede facilisis laoreet</b>. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. <b>Curabitur sit amet mauris</b>. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. </p>
-              </article>
+                <h3>Alexander Malahoff</h3>
+                <p>I am a junior in Queens College majoring in computer science. I am a graduate of Cornell Law School and I am an      
+                admitted attorney in the state of New York. I have worked for Court System of New York and in the private field. I       
+                enjoy working in collaborative settings with people motivated to accomplish the same task. I'm excited to work       
+                with the CISDD Incubator and help serve an underserved community by helping to create the Starter Jobs App.</p>
+
+                <h3>Kevin Ramsunder</h3>
+                <p>I am a third year undergraduate student at Queens College. I started programming as a hobby in high school after participating in my school's Robotics program. Today, my main goal in this field is to use technology to improve every aspect of our daily lives. Aside from my own personal projects, I enjoy coding collaboratively with others who share the same passion for creating useful and innovative software. I am also a believer in the Open-Source movement and its mission to make software free for the community.</p>           
+                
+                <h3>Miriam Striks</h3>
+                <p>I am a senior majoring in computer science at Queens College, where I also work with Professor Christopher Hanusa        
+                doing research in experimental mathematics. As part of our research, I recently developed a program that yields      
+                meaningful data for combinatorics research. I have previously worked at Tax Credit Co., a tax credit consultancy     
+                based in Los Angeles, where I created an internal credit tracking template that resulted in enhanced credit      
+                management for Fortune 500 clients.</p>
+            </article>
+
             <!-- /Article -->
 
             <aside class="col-sm-4 sidebar sidebar-right">
