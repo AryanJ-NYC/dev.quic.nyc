@@ -2,6 +2,7 @@
 # PHP Mailer library for attachments
 require_once './assets/libraries/PHPMailer/PHPMailerAutoload.php';
 require_once './assets/libraries/reCAPTCHA/recaptchalib.php';
+require_once("database.php");
 
 # get the value from the input field
 function get($name) {
@@ -73,10 +74,22 @@ $fields = array(
 # get message and error values
 $errorValues = array();
 $message = generateMessage($fields, $errorValues);
-   
+$query = "INSERT INTO `contact`(`Name`, `Email`, `Phone`, `Message`) VALUES ('%NAME%', '%EMAIL%', '%PHONE%', '%MESSAGE%');";
+
 # if no fields are empty, send the email. 
 # echo result to AJAX script
 if(count($errorValues) == 0) {
+    $query = str_replace("%NAME%", get('name'), $query);
+    $query = str_replace("%EMAIL%", get('email'), $query);
+    $query = str_replace("%PHONE%", get('phone'), $query);
+    $query = str_replace("%MESSAGE%", get('text'), $query);
+
+    if ($db->query($query) === TRUE) {
+        $message .= "\n***\nThis information has been successfully added to database table [contact]";
+    } else {
+        $message .= "\n***\nThere was an error saving this information to the database. Please keep a copy of this email for your records.";
+    }
+
     $subject = "QC Incubator: Message from " . get('name');
     sendEmail($to, $subject, $message, $from);
     echo ("success");

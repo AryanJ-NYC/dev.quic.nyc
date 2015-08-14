@@ -144,7 +144,7 @@
                         </div>
                         <br>
 
-                        <p><h3>Programming Experience</h3></p>
+                        <p><h3>Personal Statement</h3></p>
                         <div class="row">
                             <div class="col-sm-12">
                                 <label>In fewer than 200 words, please describe why you want to participate in this program and what you hope to gain from the experience. You should indicate clearly what skills you will bring to the program and why you are likely to succeed. This is also your chance to explain any issues with your application not addressed in previous sections. The personal statement will be especially important in evaluating the strength of your candidacy if you are not submitting a letter of recommendation.</label>
