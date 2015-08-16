@@ -9,7 +9,7 @@
                 <?php $thisPage = basename($_SERVER['SCRIPT_FILENAME']) ?>
 
                     <li class="dropdown" <?php if ($thisPage=="about.php") echo "class=\"active dropdown\"";?>>
-                    <a href="about.php" class="dropdown-toggle">About</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="quic.php">QUIC</a></li>
                             <li><a href="facility.php">Facilities</a></li>
@@ -19,7 +19,7 @@
                     </li>
 
                     <li class="dropdown" <?php if ($thisPage=="community.php") echo "class=\"active dropdown\"";?>>
-                    <a href="community.php" class="dropdown-toggle">Community</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="leadership.php">Leadership</a></li>
                             <li><a href="staff.php">Staff</a></li>
@@ -31,7 +31,7 @@
                     </li>
 
                     <li class="dropdown" <?php if ($thisPage=="resources.php") echo "class=\"active dropdown\"";?>>
-                    <a href="resources.php" class="dropdown-toggle">Resources</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="it.php">IT</a></li>
                             <li><a href="faculty.php">Faculty Experts in Residence</a></li>
@@ -42,11 +42,11 @@
                     </li>
 
                     <li class="dropdown" <?php if ($thisPage=="events.php") echo "class=\"active dropdown\"";?>>
-                    <a href="events.php" class="dropdown-toggle">Events</a>
+                    <a href="events.php">Events</a>
                     </li>
 
                     <li class="dropdown" <?php if ($thisPage=="membership.php") echo "class=\"active dropdown\"";?>>
-                    <a href="membership.php" class="dropdown-toggle">Membership</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Membership <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="benefits.php">Member Benefits</a></li>
                             <li><a href="incubatorspace.php">Incubator Space</a></li>
@@ -55,7 +55,7 @@
                     </li>
 
                     <li class="dropdown" <?php if ($thisPage=="projects.php") echo "class=\"active dropdown\"";?>>
-                    <a href="projects.php" class="dropdown-toggle">Projects</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="http://flushing.quic.nyc" target="_blank">Underground Flushing Food Map</a></li>
                             <li><a href="colorblind.php">Colorblind Support</a></li>
@@ -63,11 +63,11 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown" <?php if ($thisPage=="contact.php") echo "class=\"active dropdown\"";?>>
+                    <li <?php if ($thisPage=="contact.php") echo "class=\"active dropdown\"";?> >
                     <a href="contact.php">Contact</a>
                     </li>
 
-                    <li class="dropdown" <?php if ($thisPage=="applynow.php") echo "class=\"active dropdown\"";?>>
+                    <li <?php if ($thisPage=="applynow.php") echo "class=\"active dropdown\"";?> >
                     <a class="btn" href="applynow.php">APPLY NOW</a>
                     </li>
                 </ul>
