@@ -14,13 +14,13 @@ $(document).ready(function () {
             dataType: "text",
             
             success: function(result) {
-                if (result == 'success') {
+                if ($.trim(result) == 'success') {
                     window.location.assign("success.php");
                 } else {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
                     if(!failedOnce) {
                         failedOnce = true;
-                        if(result == 'cap error') {
+                        if($.trim(result) == 'cap error') {
                             $('.error').append("<p class='text-danger'><b>The captcha verification is incomplete or incorrect.</b></p>");
                         } else {
                             $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
@@ -43,13 +43,13 @@ $(document).ready(function () {
             dataType: "text",
             
             success: function(result) {
-                if (result == 'success') {
+                if ($.trim(result) == 'success') {
                     window.location.assign("success.php");
                 } else {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
                     if(!failedOnce) {
                         failedOnce = true;
-                        if(result == 'cap error') {
+                        if($.trim(result) == 'cap error') {
                             $('.error').append("<p class='text-danger'><b>The captcha verification is incomplete or incorrect.</b></p>");
                         } else {
                             $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
@@ -72,13 +72,13 @@ $(document).ready(function () {
             dataType: "text",
             
             success: function(result) {
-                if (result == 'success') {
+                if ($.trim(result) == 'success') {
                     window.location.assign("success.php");
                 } else {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
                     if(!failedOnce) {
                         failedOnce = true;
-                        if(result == 'cap error') {
+                        if($.trim(result) == 'cap error') {
                             $('.error').append("<p class='text-danger'><b>The captcha verification is incomplete or incorrect.</b></p>");
                         } else {
                             $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
