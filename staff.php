@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
     <link rel="stylesheet" href="assets/css/main.css">
 
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
@@ -39,14 +40,27 @@
             
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
+                
                 <header class="page-header"><h1 class="page-title">Our Staff</h1></header>
-                <h3>Elvin Wang</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. </p>
-                <h3>Sophie Wu</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b>. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
-                <h3>Navy Su</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b>. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
+                <h3>Hsien-Tseng Wang</h3>
+                <p><i>Managing Director, Queens College Tech Incubator Center</i>
+                </p>
+                <div class="row">
+                    <div class="col-md-3 col-xs-12"><img src="assets/images/elvin.png" class="img-responsive pull-left member-images"></div>
+                    <div class="col-md-9 col-sm-12">
+                        <p> Hsien-Tseng (Elvin) Wang is a PhD candidate in Computer Science at the Graduate Center, CUNY.  His research interests include semantic web technology, temporal data modeling, and knowledge-based systems.  He has worked on modeling temporal data with RDF models and developed a query language.  Since 2008, Wang has been an adjunct faculty member in the Computer Information Systems department at Baruch.  Prior to CUNY, he worked as an engineer for government construction projects for six years.  Wang holds M.S. and B.A. degrees in Civil engineering from NCU of Taiwan, an MBA in Finance from Baruch College, and a M. Phil from The Graduate Center of CUNY.</p>
+                    </div>
+                </div>
+                
+                <h3>Haijun Su</h3>
+                <p><i>
+                    System Administrator, CUNY Institute for Software Design and Development<br>
+                    System Administrator, Queens College Tech Incubator
+                </i></p>
+                <div class="row">
+                    <div class="col-md-3 col-xs-12"><img src="assets/images/navy.png" class="img-responsive pull-left member-images"></div>
+                    <div class="col-md-9 col-sm-12"><p>Navy (Haijun) Su has extensive experience developing advanced networks and web applications.  He has rich and broad expertise in object-oriented platforms, Middleware, UNIX systems, software reuse and third-party integration.  Navy holds an M.S. in Computer Science from CUNY Queens College.  Prior to Queens College, he worked as a software engineer in Nortel Networks and Ericsson in China for many years.  Navy is also familiar with most programming languages, databases, and operating systems, such as Java, PHP, C++, C, Python, Unix Shell, MySQL, Oracle, Solaris, Linux, Windows and Mac OS X.</p></div>
+                </div>
             </article>
 
 
