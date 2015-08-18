@@ -1,3 +1,3 @@
 ###Running the demo
 
-View the live website [here](quic.nyc).
+View the live website [here](http://quic.nyc/).
