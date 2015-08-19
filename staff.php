@@ -39,14 +39,14 @@
         <div class="row">
             
             <!-- Article main content -->
-            <article class="col-sm-8 maincontent">
-                
-                <header class="page-header"><h1 class="page-title">Our Staff</h1></header>
+            <header class="page-header"><h1 class="page-title">Our Staff</h1></header>
+            <article class="col-sm-9 maincontent">
                 <h3>Hsien-Tseng Wang</h3>
-                <p><i>Managing Director, Queens College Tech Incubator Center</i>
-                </p>
+                <p><i>Managing Director, Queens College Tech Incubator Center</i></p>
                 <div class="row">
-                    <div class="col-md-3 col-xs-12"><img src="assets/images/elvin.png" class="img-responsive pull-left member-images"></div>
+                    <div class="col-md-3 col-xs-12">
+                        <img src="assets/images/elvin.png" class="img-responsive pull-left member-images">
+                    </div>
                     <div class="col-md-9 col-sm-12">
                         <p> Hsien-Tseng (Elvin) Wang is a PhD candidate in Computer Science at the Graduate Center, CUNY.  His research interests include semantic web technology, temporal data modeling, and knowledge-based systems.  He has worked on modeling temporal data with RDF models and developed a query language.  Since 2008, Wang has been an adjunct faculty member in the Computer Information Systems department at Baruch.  Prior to CUNY, he worked as an engineer for government construction projects for six years.  Wang holds M.S. and B.A. degrees in Civil engineering from NCU of Taiwan, an MBA in Finance from Baruch College, and a M. Phil from The Graduate Center of CUNY.</p>
                     </div>
@@ -59,14 +59,23 @@
                 </i></p>
                 <div class="row">
                     <div class="col-md-3 col-xs-12"><img src="assets/images/navy.png" class="img-responsive pull-left member-images"></div>
-                    <div class="col-md-9 col-sm-12"><p>Navy (Haijun) Su has extensive experience developing advanced networks and web applications.  He has rich and broad expertise in object-oriented platforms, Middleware, UNIX systems, software reuse and third-party integration.  Navy holds an M.S. in Computer Science from CUNY Queens College.  Prior to Queens College, he worked as a software engineer in Nortel Networks and Ericsson in China for many years.  Navy is also familiar with most programming languages, databases, and operating systems, such as Java, PHP, C++, C, Python, Unix Shell, MySQL, Oracle, Solaris, Linux, Windows and Mac OS X.</p></div>
+                    <div class="col-md-9 col-sm-12">
+                        <p>Navy (Haijun) Su has extensive experience developing advanced networks and web applications.  He has rich and broad expertise in object-oriented platforms, Middleware, UNIX systems, software reuse and third-party integration.  Navy holds an M.S. in Computer Science from CUNY Queens College.  Prior to Queens College, he worked as a software engineer in Nortel Networks and Ericsson in China for many years.  Navy is also familiar with most programming languages, databases, and operating systems, such as Java, PHP, C++, C, Python, Unix Shell, MySQL, Oracle, Solaris, Linux, Windows and Mac OS X.</p>
+                    </div>
+                </div>
+                <h3>Shu-Yuan Wu</h3>
+                <div class="row">
+                    <div class="col-md-3 col-xs-12">
+                        <img src="assets/images/sophie.png" class="img-responsive pull-left member-images">
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                        <p>Shu-Yuan Wu is a PhD candidate in Computer Science at the Graduate Center, CUNY. Her research interest includes social dynamics, mobile data analysis and simulations. She has worked on modeling opinion formation in the Gur Game framework. She had been working on the projects simulating transit signal priority in downtown Manhattan using bus health data, using taxicab trips data to define the traffic congested areas in NYC, and mobility modelling and simulation in an Army project as well.</p>
+                    </div>
                 </div>
             </article>
 
-
-
         <!-- Sidebar -->
-            <aside class="col-sm-4 sidebar sidebar-right">
+            <aside class="col-sm-3 sidebar sidebar-right">
                 <div class="widget">
                     <h4>Quick Links</h4>
                     <ul class="list-unstyled list-spaces">
@@ -75,16 +84,11 @@
                         <li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
                     </ul>
             </aside>
-            
-            
-
         </div>
     </div>  <!-- /container -->
-    
 
     <!-- footer -->
     <?php include("./footer.php"); ?>
-        
 
     <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
