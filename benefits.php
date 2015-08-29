@@ -23,7 +23,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-app="QuicApp">
     <!-- Fixed navbar -->
     <?php include("./navbar.php"); ?>
 
@@ -53,12 +53,8 @@
 
             <aside class="col-sm-4 sidebar sidebar-right">
                 <div class="widget">
-                    <h4>Quick Links</h4>
-                    <ul class="list-unstyled list-spaces">
-                        <li><a href="index.php" target="_blank">Home Page</a><br><span class="small text-muted">Return to the main landing page.</span></li>
-                        <li><a href="http://www.qc.cuny.edu/Pages/home.aspx" target="_blank">Queens College</a><br><span class="small text-muted">View our college's main website.</span></li>
-                        <li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
-                    </ul>
+                    <quick-links></quick-links>
+                </div>
             </aside>
         </div>
     </div>  <!-- /container -->
@@ -73,5 +69,7 @@
     <script src="assets/js/headroom.min.js"></script>
     <script src="assets/js/jQuery.headroom.min.js"></script>
     <script src="assets/js/template.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/apps/app.js"></script>
 </body>
 </html>
