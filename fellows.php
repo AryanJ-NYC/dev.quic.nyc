@@ -28,7 +28,7 @@
     <?php include("./navbar.php"); ?>
 
     <!-- container -->
-    <div class="container">
+    <div class="container" ng-app="QuicApp">
 
         <ol class="breadcrumb">
             <li><a href="index.php">Home</a></li>
@@ -36,12 +36,9 @@
         </ol>
 
         <div class="row">
-            
+            <header class="page-header"><h1 class="page-title">Our Fellows</h1></header>
             <!-- Article main content -->
-                        <article class="col-sm-8 maincontent">
-                <header class="page-header">
-                    <h1 class="page-title">Our Fellows</h1>
-                </header>
+            <article class="col-sm-8">
                 <h3>Matthew Blanco</h3>
                 <p>I am currently a senior at Queens College pursuing my Bachelor’s in Computer Science. I am lucky to have had     
                 family and friends who have given me courage when I thought I had none. Simply not wanting to disappoint these people        
@@ -65,46 +62,30 @@
                 <p>Born and raised in the Dominican Republic, I moved to the United States in September of 2010. I am currently a Senior at Queens College; Originally pursuing a degree in Telecommunications Engineering I decided to get into the Computer Science field. Technology and Computers have always been of my interest; I enjoy learning new things and creating something from nothing. Programming has been something I've enjoyed since the day I wrote my first line of code. This is why participating in the Queens College Incubator to help create things that can benefit society while at the same time give experience and teach me new thing is a really great opportunity. In my spare time I enjoy learning about new technologies and work on small projects. Among technologies that call my attention right now are Software Development, Android Applications, Arduino Projects, 3D Printing and more.</p>
 
                 <h3>Kenneth Goodman</h3>
-                <p>I am an Applied Mathematics Student with a concentration in Computer Science at Queens College. On my free time I        
-                study data analytics, number theory and video game design. At the Queens College incubator, my principal focus is on     
-                the STEM+C project. I hope to help improve learning in the fields related to STEM+C and to help students from various        
-                backgrounds succeed in fields that are so important.</p>
+                <p>I am an Applied Mathematics Student with a concentration in Computer Science at Queens College. On my free time I study data analytics, number theory and video game design. At the Queens College incubator, my principal focus is on the STEM+C project. I hope to help improve learning in the fields related to STEM+C and to help students from various backgrounds succeed in fields that are so important.</p>
 
                 <h3>Aryan Jabbari</h3>
                 <p>I am a graduate student at CUNY Queens College and an IT aide at Queens College's Academic Advising Center. In addition to learning at Queens College, I am an active student at Coursera and regularly take computer science courses online. I am interested in using technology to help others, especially those in Queens county. My principal focuses at the Queens College technology incubator is on the Starter Jobs and Flushing Chamber of Commerce projects.</p>
 
                 <h3>Alexander Malahoff</h3>
-                <p>I am a junior in Queens College majoring in computer science. I am a graduate of Cornell Law School and I am an      
-                admitted attorney in the state of New York. I have worked for Court System of New York and in the private field. I       
-                enjoy working in collaborative settings with people motivated to accomplish the same task. I'm excited to work       
-                with the CISDD Incubator and help serve an underserved community by helping to create the Starter Jobs App.</p>
+                <p>I am a junior in Queens College majoring in computer science. I am a graduate of Cornell Law School and I am an admitted attorney in the state of New York. I have worked for Court System of New York and in the private field. I enjoy working in collaborative settings with people motivated to accomplish the same task. I'm excited to work with the CISDD Incubator and help serve an underserved community by helping to create the Starter Jobs App.</p>
 
                 <h3>Kevin Ramsunder</h3>
                 <p>I am a third year undergraduate student at Queens College. I started programming as a hobby in high school after participating in my school's Robotics program. Today, my main goal in this field is to use technology to improve every aspect of our daily lives. Aside from my own personal projects, I enjoy coding collaboratively with others who share the same passion for creating useful and innovative software. I am also a believer in the Open-Source movement and its mission to make software free for the community.</p>           
                 
                 <h3>Miriam Striks</h3>
-                <p>I am a senior majoring in computer science at Queens College, where I also work with Professor Christopher Hanusa        
-                doing research in experimental mathematics. As part of our research, I recently developed a program that yields      
-                meaningful data for combinatorics research. I have previously worked at Tax Credit Co., a tax credit consultancy     
-                based in Los Angeles, where I created an internal credit tracking template that resulted in enhanced credit      
-                management for Fortune 500 clients.</p>
+                <p>I am a senior majoring in computer science at Queens College, where I also work with Professor Christopher Hanusa  doing research in experimental mathematics. As part of our research, I recently developed a program that yields  meaningful data for combinatorics research. I have previously worked at Tax Credit Co., a tax credit consultancy based in Los Angeles, where I created an internal credit tracking template that resulted in enhanced credit  management for Fortune 500 clients.</p>
             </article>
-
-            <!-- /Article -->
 
             <aside class="col-sm-4 sidebar sidebar-right">
                 <div class="widget">
-                    <h4>Quick Links</h4>
-                    <ul class="list-unstyled list-spaces">
-                        <li><a href="index.php" target="_blank">Home Page</a><br><span class="small text-muted">Return to the main landing page.</span></li>
-                        <li><a href="http://www.qc.cuny.edu/Pages/home.aspx" target="_blank">Queens College</a><br><span class="small text-muted">View our college's main website.</span></li>
-                        <li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
-                    </ul>
-            </aside>       
+                    <quick-links></quick-links>
+                </div>
+            </aside>
+            
         </div>
-    </div>  <!-- /container -->
+    </div>  <!-- /.container -->
     
-
     <!-- footer -->
     <?php include("./footer.php"); ?>
 
@@ -114,5 +95,7 @@
     <script src="assets/js/headroom.min.js"></script>
     <script src="assets/js/jQuery.headroom.min.js"></script>
     <script src="assets/js/template.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/apps/app.js"></script>
 </body>
 </html>

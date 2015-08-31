@@ -28,7 +28,7 @@
     <?php include("./navbar.php"); ?>
 
     <!-- container -->
-    <div class="container">
+    <div class="container" ng-app="QuicApp">
 
         <ol class="breadcrumb">
             <li><a href="index.php">Home</a></li>
@@ -36,10 +36,9 @@
         </ol>
 
         <div class="row">
-            
+            <header class="page-header"><h1 class="page-title">About the Queens College Tech Incubator</h1></header>
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
-                <header class="page-header"><h1 class="page-title">About the Queens College Tech Incubator</h1></header>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
 
 <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. <b>Fusce nec tellus sed augue semper porta</b>. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
@@ -54,12 +53,8 @@
 
             <aside class="col-sm-4 sidebar sidebar-right">
                 <div class="widget">
-                    <h4>Quick Links</h4>
-                    <ul class="list-unstyled list-spaces">
-                        <li><a href="index.php" target="_blank">Home Page</a><br><span class="small text-muted">Return to the main landing page.</span></li>
-                        <li><a href="http://www.qc.cuny.edu/Pages/home.aspx" target="_blank">Queens College</a><br><span class="small text-muted">View our college's main website.</span></li>
-                        <li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
-                    </ul>
+                    <quick-links></quick-links>
+                </div>
             </aside>       
         </div>
     </div>  <!-- /container -->
@@ -74,5 +69,7 @@
     <script src="assets/js/headroom.min.js"></script>
     <script src="assets/js/jQuery.headroom.min.js"></script>
     <script src="assets/js/template.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/apps/app.js"></script>
 </body>
 </html>

@@ -43,18 +43,10 @@
 		</ol>
 
 		<div class="row">
-			
+            <header class="page-header"><h1 class="page-title">Contact Us</h1></header>
 			<!-- Article main content -->
 			<article class="col-sm-9 maincontent">
-				<header class="page-header">
-					<h1 class="page-title">Contact Us</h1>
-					<div class="error"></div>
-				</header>
-				
-				<p>
-					Feel free to contact us anytime. Fill out the form below and we will be sure to get back to you.
-				</p>
-				<br>
+				<p>Feel free to contact us anytime. Fill out the form below and we will be sure to get back to you.</p><br>
 					<form id="contact-form">
 						<div class="row">
 							<div class="col-sm-4">
@@ -97,7 +89,6 @@
 			
 			<!-- Sidebar -->
 			<aside class="col-sm-3 sidebar sidebar-right">
-
 				<div class="widget">
 					<h4>Address</h4>
 					<address>
@@ -110,7 +101,6 @@
 
 		</div>
 	</div>	<!-- /container -->
-	
 
 	<!-- footer -->
     <?php include("./footer.php"); ?>

@@ -23,7 +23,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-app="QuicApp">
     <!-- Fixed navbar -->
     <?php include("./navbar.php"); ?>
 
@@ -36,27 +36,21 @@
         </ol>
 
         <div class="row">
+            <header class="page-header"><h1 class="page-title">Leadership</h1></header>
             
             <!-- Article main content -->
-            <article class="col-sm-8 maincontent">
-                <header class="page-header"><h1 class="page-title">Leadership</h1></header>
-                                <h3>Professor Ted Brown, Ph.D.</h3>
-                <p>
-                <i>Executive Director, CUNY Institute for Software Design and Development<br>
+            <article class="col-sm-8">
+                <h3>Professor Ted Brown, Ph.D.</h3>
+                <p><i>Executive Director, CUNY Institute for Software Design and Development<br>
                 Executive Director, Queens College Tech Incubator<br>
                 Professor of Computer Science, Queens College</i></p>
                 <p><img src="assets/images/tedbrown.jpg" class="img-responsive pull-left">Professor Brown oversees CISDD, develops relationships with the software industry, develops software ideas and applications, facilitates CISDD's role in CUNY and determines the mission and goals of the Software Institute. As Chair of the Computer Science department at Queens College, he engineered a great deal of change, including overseeing an ever-changing curriculum and implementing Java as the language for all students to learn. Professor Brown is also on the Executive Board of the New York Software Industry Association.</p>
-              </article>
-            <!-- /Article -->
+              </article> <!-- /Article -->
 
             <aside class="col-sm-4 sidebar sidebar-right">
                 <div class="widget">
-                    <h4>Quick Links</h4>
-                    <ul class="list-unstyled list-spaces">
-                        <li><a href="index.php" target="_blank">Home Page</a><br><span class="small text-muted">Return to the main landing page.</span></li>
-                        <li><a href="http://www.qc.cuny.edu/Pages/home.aspx" target="_blank">Queens College</a><br><span class="small text-muted">View our college's main website.</span></li>
-                        <li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
-                    </ul>
+                    <quick-links></quick-links>
+                </div>
             </aside>       
         </div>
     </div>  <!-- /container -->
@@ -70,6 +64,8 @@
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="assets/js/headroom.min.js"></script>
     <script src="assets/js/jQuery.headroom.min.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/apps/app.js"></script>
     <script src="assets/js/template.js"></script>
 </body>
 </html>

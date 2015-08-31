@@ -25,23 +25,22 @@
     <![endif]-->
 </head>
 
-<body ng-app="QuicApp">
+<body>
     <!-- Fixed navbar -->
     <?php include("./navbar.php"); ?>
 
     <!-- container -->
-    <div class="container">
+    <div class="container" ng-app="QuicApp">
 
         <ol class="breadcrumb">
             <li><a href="index.php">Home</a></li>
             <li class="active">Staff</li>
         </ol>
 
-        <div class="row" ng-controller="staffController">
-            
-            <!-- Article main content -->
+        <div class="row">
             <header class="page-header"><h1 class="page-title">Our Staff</h1></header>
-            <article class="col-sm-9 maincontent">
+            <!-- Article main content -->
+            <article class="col-sm-9" ng-controller="staffController">
                 <div ng-repeat="member in staffMembers">
                     <h3>{{ member.name }}</h3>
                     <p class="staff-position" ng-repeat="position in member.position"><i>{{ position }}</i></p>
@@ -59,13 +58,10 @@
         <!-- Sidebar -->
             <aside class="col-sm-3 sidebar sidebar-right">
                 <div class="widget">
-                    <h4>Quick Links</h4>
-                    <ul class="list-unstyled list-spaces">
-                        <li><a href="index.php" target="_blank">Home Page</a><br><span class="small text-muted">Return to the main landing page.</span></li>
-                        <li><a href="http://www.qc.cuny.edu/Pages/home.aspx" target="_blank">Queens College</a><br><span class="small text-muted">View our college's main website.</span></li>
-                        <li><a href="http://www.cs.qc.edu/" target="_blank">Queens College CS Dept.</a><br><span class="small text-muted">View our computer science department's website.</span></li>
-                    </ul>
+                    <quick-links></quick-links>
+                </div>
             </aside>
+            
         </div>
     </div>  <!-- /container -->
 

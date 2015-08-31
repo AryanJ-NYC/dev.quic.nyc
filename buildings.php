@@ -28,7 +28,7 @@
     <?php include("./navbar.php"); ?>
 
     <!-- container -->
-    <div class="container">
+    <div class="container" ng-app="QuicApp">
 
         <ol class="breadcrumb">
             <li><a href="index.php">Home</a></li>
@@ -36,16 +36,14 @@
         </ol>
 
         <div class="row">
-            
 
             <!-- Article main content -->
+            <header class="page-header"><h1 class="page-title">Building Temperature Maps</h1></header>
             <article class="col-sm-8 maincontent">
-                <header class="page-header"><h1 class="page-title">Building Temperature Maps</h1></header>
                 <p>
                     Room temperature data from CUNY John Jay has been collected over time.  The Queens College Tech Incubator will represent this data with simple color codes to help building contractors and other personnel make CUNY John Jay more energy efficient.
                 </p>
             </article>
-            <!-- /Article -->
 
             <aside class="col-sm-4 sidebar sidebar-right">
                 <div class="widget">
@@ -56,7 +54,6 @@
         </div>
     </div>  <!-- /container -->
     
-
     <!-- footer -->
     <?php include("./footer.php"); ?>
         
@@ -68,6 +65,5 @@
     <script src="assets/js/template.js"></script>
     <script src="assets/js/angular.min.js"></script>
     <script src="assets/js/apps/app.js"></script>
-        
 </body>
 </html>
