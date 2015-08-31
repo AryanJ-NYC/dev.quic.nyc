@@ -37,7 +37,7 @@
                             <li><a href="faculty.php">Faculty Experts in Residence</a></li>
                             <li><a href="master.php">Master Classes</a></li>
                             <li><a href="member.php">Member Study Groups</a></li>
-                            <li><a href="officespace.php">Office Spaces</a></li>
+                            <li><a href="officespace.php">Office Space</a></li>
                         </ul>
                     </li>
 
