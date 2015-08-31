@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
     <!-- Custom styles for our template -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -37,7 +37,6 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div id="modalImage" class="col-sm-offset-4 col-md-offset-4  col-lg-offset-4 col-sm-4 col-md-4 col-lg-4">
-                                
                             </div>
                         </div>
                     </div>
@@ -122,7 +121,6 @@
         </div>
     </div>  <!-- /container -->
     
-
     <!-- footer -->
     <?php include("./footer.php"); ?>
 
@@ -131,8 +129,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="assets/js/headroom.min.js"></script>
     <script src="assets/js/jQuery.headroom.min.js"></script>
-    <script src="assets/js/template.js"></script>
-    
+    <script src="assets/js/template.js"></script> 
     
     <!-- Modal script -->
     <script>
@@ -149,7 +146,6 @@
                 });
             });
         })
-        
     </script>
 </body>
 </html>

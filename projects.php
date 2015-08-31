@@ -37,25 +37,15 @@
 		</ol>
 
 		<div class="row">
-			
+			<header class="page-header"><h1 class="page-title">Projects and Research</h1></header>
 			<!-- Article main content -->
 			<article class="col-md-8 maincontent">
-				<header class="page-header">
-					<h1 class="page-title">Projects and Research</h1>
-				</header>
 				<h2>Flushing Chamber of Commerce</h2>
-				<p>
-					An important part of the economy of Flushing is restaurants. Flushing was primarily settled by Taiwanese and other Mandarin speaking Chinese immigrants. The Queens College Tech Incubator, with help from the Flushing Chamber of Commerce, is compiling a map of the restaurants of these various cuisines.
-				</p>
+				<p>An important part of the economy of Flushing is restaurants. Flushing was primarily settled by Taiwanese and other Mandarin speaking Chinese immigrants. The Queens College Tech Incubator, with help from the Flushing Chamber of Commerce, is compiling a map of the restaurants of these various cuisines.</p>
 
-				<p>
-					<a href="http://www.seriouseats.com/2014/10/where-to-eat-chinese-best-restaurants-flushing-queens-chinatown-nyc.html" target="_blank">
-	                How to Eat Flushing: A One-Day Food Tour of NYC's Greatest Chinatown</a>
-                </p>
+				<p><a href="http://www.seriouseats.com/2014/10/where-to-eat-chinese-best-restaurants-flushing-queens-chinatown-nyc.html" target="_blank">How to Eat Flushing: A One-Day Food Tour of NYC's Greatest Chinatown</a></p>
 
-                <p>
-	                <a href="//www.thrillist.com/eat/new-york/queens/the-definitive-eating-guide-to-flushing-queens-thrillist-new-york" target="_blank">
-	                The Definitive Eating Guide To Flushing, Queens</a>
+                <p><a href="//www.thrillist.com/eat/new-york/queens/the-definitive-eating-guide-to-flushing-queens-thrillist-new-york" target="_blank">The Definitive Eating Guide To Flushing, Queens</a>
 				</p>
 	
 				<h2>Colorblind Support</h2>
@@ -69,11 +59,8 @@
                 </p>
                 
                 <h2>Science Lab Support</h2>
-                <p>
-                    Technology is an everyday part of students' lives.  The Queens College Tech Incubator is working closely with science labs at Queens College to make teaching more efficient and learning more interactive.
-                </p>
+                <p>Technology is an everyday part of students' lives.  The Queens College Tech Incubator is working closely with science labs at Queens College to make teaching more efficient and learning more interactive.</p>
 			</article>
-			<!-- /Article -->
 			
 			<!-- Sidebar -->
 			<aside class="col-md-4 sidebar sidebar-right">
