@@ -43,7 +43,10 @@
 		</ol>
 
 		<div class="row">
-            <header class="page-header"><h1 class="page-title">Contact Us</h1></header>
+            <header class="page-header">
+                <h1 class="page-title">Contact Us</h1>
+                <div class="error"></div>
+            </header>
 			<!-- Article main content -->
 			<article class="col-sm-9 maincontent">
 				<p>Feel free to contact us anytime. Fill out the form below and we will be sure to get back to you.</p><br>

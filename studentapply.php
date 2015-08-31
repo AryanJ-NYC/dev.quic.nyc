@@ -43,14 +43,12 @@
         </ol>
 
         <div class="row">
-            
+            <header class="page-header">
+                <h1 class="page-title">Application For Students</h1>
+                <div class="error"></div>
+            </header>
             <!-- Article main content -->
             <article class="col-sm-9 maincontent">
-                <header class="page-header">
-                    <h1 class="page-title">Application For Students</h1>
-                    <div class="error"></div>
-                </header>
-                
                 <p>
                    Start the process for joining the Queens College Tech Incubator as a student developer. Fill out the form below and we will get back to you as soon as possible. 
                 </p>
@@ -181,21 +179,17 @@
             
             <!-- Sidebar -->
             <aside class="col-sm-3 sidebar sidebar-right">
-
                 <div class="widget">
                     <h4>Address</h4>
                     <address>
                         65-30 Kissena Boulevard, Flushing, NY 11367
                     </address>
                 </div>
-
             </aside>
             <!-- /Sidebar -->
 
         </div>
     </div>  <!-- /container -->
-    
-
 
     <!-- footer -->
     <?php include("./footer.php"); ?>
