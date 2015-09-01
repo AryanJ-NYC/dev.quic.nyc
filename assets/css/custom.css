@@ -1,7 +1,28 @@
+#welcomebutton {
+    color: white;
+    border-color: white;
+}
+
 .thumb {
     margin-bottom: 30px;
 }
 
 .staff-position {
     margin-bottom: 5px;
+}
+
+.navbar-inverse, .footer2 {
+    background: rgb(182, 38, 60);
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a, .footer2 {
+    color: white;
+}
+
+.transparent-black-background {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.navbar-nav .btn {
+    border-color: white;
 }

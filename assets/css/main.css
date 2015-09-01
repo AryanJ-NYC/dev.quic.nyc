@@ -81,7 +81,7 @@ img.pull-left { margin-right: 10px; }
 		.follow-me-icons i { float:left; margin:0 10px 0 0; }		
 
 .footer2 { background: rgba(125, 0, 0, 1); padding: 15px 0; color: #ccc; font-size: 12px; border-top:1px solid rgba(0, 0, 0, .25);}
-	.footer2 a { color: #aaa; }
+	.footer2 a { color: white; }
 		.footer2 a:hover { color: #fff; }
 		.footer2 p { margin: 0; }
 

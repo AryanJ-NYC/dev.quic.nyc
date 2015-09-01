@@ -12,8 +12,9 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
 	<link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -30,10 +31,9 @@
 	<!-- Header -->
 	<header id="head">
 		<div class="container">
-			<div class="row">
-				<h1 class="lead">QUEENS COLLEGE INCUBATOR</h1>
+			<div class="row transparent-black-background">
+				<h1 class="lead">Queens College Tech Incubator Center</h1>
 				<p class="tagline">65-30 Kissena Boulevard, Flushing, New York 11367</p>
-				<p><a id="welcomebutton" class="btn btn-default btn-lg" role="button">Welcome!</a></p>
 			</div>
 		</div>
 	</header>

@@ -62,9 +62,7 @@ if(!ini_get('date.timezone')) {
 
                     <div class="col-md-6 widget">
                         <div class="widget-body">
-                            <p class="text-right">
-                                Copyright &copy; <?php echo date("Y"); ?> - Queens College Incubator 
-                            </p>
+                            <img class="img-responsive pull-right" src="assets/images/QC_Tech_CUNY_logo.gif">
                         </div>
                     </div>
 
