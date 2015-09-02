@@ -44,7 +44,7 @@ if(!ini_get('date.timezone')) {
             <div class="container">
                 <div class="row">
                     
-                    <div class="col-md-6 widget">
+                    <div class="col-md-8 widget">
                         <div class="widget-body">
                             <p class="simplenav">
                                 <a href="index.php">Home</a> | 
@@ -60,7 +60,7 @@ if(!ini_get('date.timezone')) {
                         </div>
                     </div>
 
-                    <div class="col-md-6 widget">
+                    <div class="col-md-4 widget">
                         <div class="widget-body">
                             <img class="img-responsive pull-right" src="assets/images/QC_Tech_CUNY_logo.gif">
                         </div>

@@ -26,3 +26,6 @@
 .navbar-nav .btn {
     border-color: white;
 }
+.navbar-nav .dropdown-menu {
+    background-color: rgb(231, 25, 57)
+}
