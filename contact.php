@@ -65,13 +65,6 @@
 						<br>
 						<div class="row container">
 							<center>
-							<div class='col-sm-8'>
-							<?php
-					          require_once('./assets/libraries/reCAPTCHA/recaptchalib.php');
-					          $publickey = "6Ld6mQkTAAAAAHssW7iiyS3xccpBY6VKilV9_dQS"; 
-					          echo recaptcha_get_html($publickey);
-					        ?>
-					        </div>
 							<br>
 							</center>
 							<div class="col-sm-8 text-center">
