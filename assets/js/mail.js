@@ -20,11 +20,7 @@ $(document).ready(function () {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
                     if(!failedOnce) {
                         failedOnce = true;
-                        if($.trim(result) == 'cap error') {
-                            $('.error').append("<p class='text-danger'><b>The captcha verification is incomplete or incorrect.</b></p>");
-                        } else {
-                            $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
-                        }
+                        $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
                     } 
                 } 
             }
@@ -49,11 +45,7 @@ $(document).ready(function () {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
                     if(!failedOnce) {
                         failedOnce = true;
-                        if($.trim(result) == 'cap error') {
-                            $('.error').append("<p class='text-danger'><b>The captcha verification is incomplete or incorrect.</b></p>");
-                        } else {
-                            $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
-                        }
+                        $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
                     } 
                 } 
             }
@@ -78,11 +70,7 @@ $(document).ready(function () {
                     $('html, body').animate({ scrollTop: 0 }, 'slow');
                     if(!failedOnce) {
                         failedOnce = true;
-                        if($.trim(result) == 'cap error') {
-                            $('.error').append("<p class='text-danger'><b>The captcha verification is incomplete or incorrect.</b></p>");
-                        } else {
-                            $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
-                        }
+                        $('.error').append("<p class='text-danger'><b>Your form is incomplete. Please try again.</b></p>");
                     } 
                 } 
             }
