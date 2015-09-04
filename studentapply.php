@@ -192,8 +192,9 @@
     <script src="assets/js/functions.js"></script>
 
     <script>
-    // The following code saves the form values in case of browser refresh
+    
     window.onload = function() {
+        // Displays saved form values on page load
         setFormValue('name', '#fellow-name');
         setFormValue('phone', '#fellow-phone');
         setFormValue('email', '#fellow-email');
@@ -207,6 +208,7 @@
     }
     
     window.onbeforeunload = function() {
+        // Saves the form values in case of browser refresh
         sessionStorage.setItem('name', $('#fellow-name').val());
         sessionStorage.setItem('phone', $('#fellow-phone').val());
         sessionStorage.setItem('email', $('#fellow-email').val());

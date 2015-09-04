@@ -53,32 +53,32 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<label>Applicant Name:</label>
-								<input class="form-control" type="text" placeholder="Applicant Name" name='applicant'><br>
+								<input id="venture-applicant-name" class="form-control" type="text" placeholder="Applicant Name" name='applicant'><br>
 							</div>
 
 							<div class="col-sm-6">
 								<label>Venture Name:</label>
-								<input class="form-control" type="text" placeholder="Venture Name" name='venturename'><br>
+								<input id="venture-name" class="form-control" type="text" placeholder="Venture Name" name='venturename'><br>
 							</div>
 
 							<div class="col-sm-6">
 								<label>Venture Website:</label>
-								<input class="form-control" type="text" placeholder="Venture Website" name='website'><br>
+								<input id="venture-website" class="form-control" type="text" placeholder="Venture Website" name='website'><br>
 							</div>
 
 							<div class="col-sm-6">
 								<label>Title:</label>
-								<input class="form-control" type="text" placeholder="Your Title" name='title'><br>
+								<input id="venture-title" class="form-control" type="text" placeholder="Your Title" name='title'><br>
 							</div>
 
 							<div class="col-sm-6">
 								<label>Phone Number:</label>
-								<input class="form-control" type="text" placeholder="Your Phone Number" name='phone'><br>
+								<input id="venture-phone" class="form-control" type="text" placeholder="Your Phone Number" name='phone'><br>
 							</div>
 
 							<div class="col-sm-6">
 								<label>Email Address:</label>
-								<input class="form-control" type="text" placeholder="Your Email Address" name='email'><br>
+								<input id="venture-email" class="form-control" type="text" placeholder="Your Email Address" name='email'><br>
 							</div>
 						</div>
 						
@@ -129,7 +129,7 @@
 						<br>
 
 						<div class="row">
-							<label for="newexisting" class="col-sm-6">Are you a new business to New York State, or an existing business?</label>
+							<label for="newexisting" class="col-sm-6">Are you a new business to New York State or an existing business?</label>
 							<div class="col-sm-6">
 								<input type='radio' name='newexisting' value='new' /> New <input type='radio' name='newexisting' value='old' /> Existing</p>	
 							</div>
@@ -168,7 +168,7 @@
 						<div class="row">
 							<label for="solution" class="col-sm-6">What existing problem does your solution (e.g.: product, service, app) address?</label>
 							<div class="col-sm-6">
-								<input id="solution" placeholder="What do you help to solve with your venture?" class="form-control" name='solution' rows="9"></input>
+								<input id="solution" placeholder="What do you hope to solve with your venture?" class="form-control" name='solution' rows="9"></input>
 							</div>
 						</div>
 
@@ -219,15 +219,15 @@
 						<div class="row">
 							<div class="col-sm-12">
 								<label>Describe your sales and marketing strategy; how will you grow the business?</label>
-								<textarea name='strategy' placeholder="Describe your sales and marketing strategy; how will you grow the business?" class="form-control" rows="3"></textarea>
+								<textarea id="strategy" name='strategy' placeholder="Describe your sales and marketing strategy; how will you grow the business?" class="form-control" rows="3"></textarea>
 							</div>
 						</div>
 						<br>
 
 						<div class="row">
 							<div class="col-sm-12">
-								<label>What are barriers to entry, and what is your competitive advantage?</label>
-								<textarea name='advantage' placeholder="What are barriers to entry, and what is your competitive advantage?" class="form-control" rows="3"></textarea>
+								<label>What are barriers to entry and what is your competitive advantage?</label>
+								<textarea id="advantage" name='advantage' placeholder="What are barriers to entry, and what is your competitive advantage?" class="form-control" rows="3"></textarea>
 							</div>
 						</div>
 						<br>
@@ -236,7 +236,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								<label>Which qualifications - skills and resources - does your current team have?</label>
-								<textarea name='skills' placeholder="Which qualifications - skills and resources - does your current team have?" class="form-control" rows="4"></textarea>
+								<textarea id="skills" name='skills' placeholder="Which qualifications - skills and resources - does your current team have?" class="form-control" rows="4"></textarea>
 							</div>
 						</div>
 						<br>
@@ -244,7 +244,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								<label>How will the incubator program impact your ability to succeed?</label>
-								<textarea name='ability' placeholder="How will the incubator program impact your ability to succeed?" class="form-control" rows="4"></textarea>
+								<textarea id="ability" name='ability' placeholder="How will the incubator program impact your ability to succeed?" class="form-control" rows="4"></textarea>
 							</div>
 						</div>
 						<br>
@@ -294,5 +294,23 @@
 	<script src="assets/js/template.js"></script>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<script src="assets/js/mail.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script>
+        var Ids = [];
+        $('#apply-form').find('input, textarea').each(function() {if(this.id) Ids.push(this.id)});
+        
+        window.onbeforeunload = function() {
+            for(var i = 0; i < Ids.length; i++) {
+                console.log(Ids[i]);
+                sessionStorage.setItem(Ids[i], $('#' + Ids[i]).val());
+            }   
+        }
+        
+        window.onload = function() {
+            for(var i = 0; i < Ids.length; i++) {
+                setFormValue(Ids[i], '#' + Ids[i]);
+            }
+        }
+    </script>
 </body>
 </html>
