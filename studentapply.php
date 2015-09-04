@@ -192,34 +192,20 @@
     <script src="assets/js/functions.js"></script>
 
     <script>
-    
-    window.onload = function() {
-        // Displays saved form values on page load
-        setFormValue('name', '#fellow-name');
-        setFormValue('phone', '#fellow-phone');
-        setFormValue('email', '#fellow-email');
-        setFormValue('degree', '#degree');
-        setFormValue('gradseason', '#gradseason');
-        setFormValue('gradyear', '#gradyear');
-        setFormValue('citizenship', '#citizenship');
-        setFormValue('creditstograd', '#credstograd');
-        setFormValue('experience', '#programming-experience');
-        setFormValue('statement', '#personal-statement');
-    }
-    
-    window.onbeforeunload = function() {
-        // Saves the form values in case of browser refresh
-        sessionStorage.setItem('name', $('#fellow-name').val());
-        sessionStorage.setItem('phone', $('#fellow-phone').val());
-        sessionStorage.setItem('email', $('#fellow-email').val());
-        sessionStorage.setItem('degree', $('#degree').val());
-        sessionStorage.setItem('gradseason', $('#gradseason').val());
-        sessionStorage.setItem('gradyear', $('#gradyear').val());
-        sessionStorage.setItem('citizenship', $('#citizenship').val());
-        sessionStorage.setItem('creditstograd', $('#credstograd').val());
-        sessionStorage.setItem('experience', $('#programming-experience').val());
-        sessionStorage.setItem('statement', $('#personal-statement').val());
-    }
+        var Ids = [];
+        $('#student-apply-form').find('input, textarea').each(function() {if(this.id) Ids.push(this.id)});
+        
+        window.onbeforeunload = function() {
+            for(var i = 0; i < Ids.length; i++) {
+                sessionStorage.setItem(Ids[i], $('#' + Ids[i]).val());
+            }   
+        }
+        
+        window.onload = function() {
+            for(var i = 0; i < Ids.length; i++) {
+                setFormValue(Ids[i], '#' + Ids[i]);
+            }
+        }
     </script>
 
 </body>

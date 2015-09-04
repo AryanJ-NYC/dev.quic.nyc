@@ -301,7 +301,6 @@
         
         window.onbeforeunload = function() {
             for(var i = 0; i < Ids.length; i++) {
-                console.log(Ids[i]);
                 sessionStorage.setItem(Ids[i], $('#' + Ids[i]).val());
             }   
         }
