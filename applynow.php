@@ -27,7 +27,7 @@
         <br><br><br><br>
         <h1 class="thin">Apply Now.</h1>
         <br>
-        <h2 class="thin">Are you applying as a fellow or a venture?</h2>
+        <h2 class="thin">Are you applying as a fellow (student) or a venture?</h2>
         <br><br>
         
         <div class="container-fluid">

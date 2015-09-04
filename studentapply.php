@@ -52,17 +52,17 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <label>Applicant Name:</label>
-                                <input class="form-control" type="text" placeholder="Applicant Name" name='applicant'><br>
+                                <input id="fellow-name" class="form-control" type="text" placeholder="Applicant Name" name='applicant'><br>
                             </div>
 
                             <div class="col-sm-6">
                                 <label>Phone Number:</label>
-                                <input class="form-control" type="text" placeholder="Your Phone Number" name='phone'><br>
+                                <input id="fellow-phone" class="form-control" type="text" placeholder="Your Phone Number" name='phone'><br>
                             </div>
 
                             <div class="col-sm-6">
                                 <label>Email Address:</label>
-                                <input class="form-control" type="text" placeholder="Your Email Address" name='email'><br>
+                                <input id="fellow-email" class="form-control" type="text" placeholder="Your Email Address" name='email'><br>
                             </div>
                         </div>
                         
@@ -131,7 +131,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <label>Summarize any programming experience you have acquired from employment, freelance work, class projects, volunteering, hobbies, or through other activities. When referring to specific projects, please give a brief description and discuss the following: language(s) developed in and your level of proficiency; tools used; the environment created in; and your role. If any work is live, include a link to an online portfolio.</label>
-                                <textarea name='programmingExperience' placeholder="" class="form-control" rows="4"></textarea>
+                                <textarea id="programming-experience" name='programmingExperience' placeholder="" class="form-control" rows="4"></textarea>
                             </div>
                         </div>
                         <br>
@@ -140,7 +140,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <label>In fewer than 200 words, please describe why you want to participate in this program and what you hope to gain from the experience. You should indicate clearly what skills you will bring to the program and why you are likely to succeed. This is also your chance to explain any issues with your application not addressed in previous sections. The personal statement will be especially important in evaluating the strength of your candidacy if you are not submitting a letter of recommendation.</label>
-                                <textarea name='personalstatement' placeholder="" class="form-control" rows="4"></textarea>
+                                <textarea id="personal-statement" name='personalstatement' placeholder="" class="form-control" rows="4"></textarea>
                             </div>
                         </div>
                         <br>
@@ -189,5 +189,36 @@
     <script src="assets/js/template.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="assets/js/mail.js"></script>
+    <script src="assets/js/functions.js"></script>
+
+    <script>
+    // The following code saves the form values in case of browser refresh
+    window.onload = function() {
+        setFormValue('name', '#fellow-name');
+        setFormValue('phone', '#fellow-phone');
+        setFormValue('email', '#fellow-email');
+        setFormValue('degree', '#degree');
+        setFormValue('gradseason', '#gradseason');
+        setFormValue('gradyear', '#gradyear');
+        setFormValue('citizenship', '#citizenship');
+        setFormValue('creditstograd', '#credstograd');
+        setFormValue('experience', '#programming-experience');
+        setFormValue('statement', '#personal-statement');
+    }
+    
+    window.onbeforeunload = function() {
+        sessionStorage.setItem('name', $('#fellow-name').val());
+        sessionStorage.setItem('phone', $('#fellow-phone').val());
+        sessionStorage.setItem('email', $('#fellow-email').val());
+        sessionStorage.setItem('degree', $('#degree').val());
+        sessionStorage.setItem('gradseason', $('#gradseason').val());
+        sessionStorage.setItem('gradyear', $('#gradyear').val());
+        sessionStorage.setItem('citizenship', $('#citizenship').val());
+        sessionStorage.setItem('creditstograd', $('#credstograd').val());
+        sessionStorage.setItem('experience', $('#programming-experience').val());
+        sessionStorage.setItem('statement', $('#personal-statement').val());
+    }
+    </script>
+
 </body>
 </html>
