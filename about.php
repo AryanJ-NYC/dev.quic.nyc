@@ -35,7 +35,7 @@
 			<article class="col-sm-8 maincontent">
 				<header class="page-header"><h1 class="page-title">About Us</h1></header>
 				<h3>The Queens College Incubator</h3>
-				<p>The Incubator seeks to carry forward the mission of the college by attracting high tech business to campus and giving them access to the diverse and talented students, staff and faculty of the college. It is the ambititon of the incubator to reflect the tremendous diversity and resoucefulnees of the many ethnic communities of Queens itself.</p>		
+				<p>The Incubator seeks to carry forward the mission of the college by attracting high tech business to campus and giving them access to the diverse and talented students, staff and faculty of the college. It is the ambition of the incubator to reflect the tremendous diversity and resoucefulneds of the many ethnic communities of Queens itself.</p>		
 				
 				<h3><a href="http://www.cs.qc.cuny.edu/index.html" target="_blank">Our Computer Science Department</a></h3>
 				<p>Computer Science is an exciting and rapidly changing discipline, and students at Queens College have the opportunity to study towards B.A., B.S., M.A., and Ph.D. degrees at the cutting edge of this expanding field.
