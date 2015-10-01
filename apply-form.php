@@ -49,7 +49,7 @@ function sendEmail($to, $subject, $message, $from) {
 }
 
 # to and from fields for the email
-$to = "TBrown@gc.cuny.edu"; 
+$to = "KevinRamsunder4@gmail.com"; 
 $from = "info@quic.nyc";
 
 # fields on the form
