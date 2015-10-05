@@ -33,7 +33,7 @@
             <header class="page-header"><h1 class="page-title">Faculty Experts</h1></header>
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
-                <img src="http://www.mgei-iagi.org/UnderConstruction1.png">
+                <p>Faculty in multiple fields are ready to provide feedback and consultation to our QUIC members through in-person or virtual office hours.</p>
             </article>
 
             <aside class="col-sm-4 sidebar sidebar-right">
