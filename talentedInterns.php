@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    
+    <title>IT</title>
+
+    <link rel="shortcut icon" href="assets/images/gt_favicon.ico" type="image/x-icon"/>
+
+    <?php include("css-links.php"); ?>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <?php include("./navbar.php"); ?>
+
+    <!-- container -->
+    <div class="container" ng-app="QuicApp">
+
+        <ol class="breadcrumb">
+            <li><a href="index.php">Home</a></li>
+            <li class="active">Resources</li>
+        </ol>
+
+        <div class="row">
+            <header class="page-header"><h1 class="page-title">Talented Interns</h1></header>
+            <!-- Article main content -->
+            <article class="col-sm-8 maincontent">
+                <p>Mainly recruited from QC campus, a groups of talented computer science students are actively working on interesting projects at QUIC. We facilitate the process of recruiting capable interns for our members as needed. </p>
+            </article>
+
+            <aside class="col-sm-4 sidebar sidebar-right">
+                <div class="widget">
+                    <quick-links></quick-links>
+                </div>
+            </aside>       
+        </div>
+    </div>  <!-- /container -->
+
+    <!-- footer -->
+    <?php include("./footer.php"); ?>
+
+    <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">    </script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/headroom.min.js"></script>
+    <script src="assets/js/jQuery.headroom.min.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/apps/app.js"></script>
+</body>
+</html>
