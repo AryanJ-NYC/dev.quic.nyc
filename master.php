@@ -33,7 +33,7 @@
             <header class="page-header"><h1 class="page-title">Master Classes</h1></header>
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
-                <img src="http://www.mgei-iagi.org/UnderConstruction1.png">
+                <p>New tech knowledge and development evolve. We consider Master classes in top-of -the-line topics as a crucial factor that magnifies our members’ strength and achieve success.  A master class consists of a series of workshops that are taught by CUNY faculty, or industry professionals.</p>
             </article>
 
             <aside class="col-sm-4 sidebar sidebar-right">
