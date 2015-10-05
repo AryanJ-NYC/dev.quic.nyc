@@ -60,120 +60,57 @@
 			<p>The following lists different membership types. <p>
 			
 			<div id="table">
-			  <h2>Membership Types</h2>
-			  <table class="table table-striped">
-				<thead>
-				  <tr>
-					<th>Membership</th>
-					<th>Max. Occupants</th>
-					<th>Available No. of Rooms</th>
-					<th>Monthly Cost</th>
-				  </tr>
-				</thead>
-				<tbody>
-				  <tr>
-					<td>Independent Pro</td>
-					<td>12</td>
-					<td>1</td>
-					<td>$xxx.xx</td>
-				  </tr>
-				  <tr>
-					<td>Small Incubator </td>
-					<td>4</td>
-					<td>2</td>
-					<td>$xxx.xx</td>
-				  </tr>
-				  <tr>
-					<td>Medium Incubator</td>
-					<td>6</td>
-					<td>3</td>
-					<td>$xxx.xx</td>
-				  </tr>
-				  <tr>
-					<td>Medium Incubator Plus</td>
-					<td>8</td>
-					<td>1</td>
-					<td>$xxx.xx</td>
-				  </tr>
-				  <tr>
-					<td>Large Incubator</td>
-					<td>10</td>
-					<td>2</td>
-					<td>$xxx.xx</td>
-				  </tr>
-				  <tr>
-					<td>Virtual Member</td>
-					<td>N/A</td>
-					<td>N/A</td>
-					<td>$xxx.xx</td>
-				  </tr>
-				  <p>**Subject to annual contract</p>
-				</tbody>
-			  </table>
-			</div>
-			
-			
-            <!--
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+			    <h2>Membership Types</h2>
+			    <table class="table table-striped">
+                    <thead>
+                      <tr>
+                    <th>Membership</th>
+                    <th>Max. Occupants</th>
+                    <th>Available No. of Rooms</th>
+                    <th>Monthly Cost</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>Independent Pro</td>
+                      <td>12</td>
+                      <td>1</td>
+                      <td>$xxx.xx</td>
+                    </tr>
+                    <tr>
+                      <td>Small Incubator </td>
+                      <td>4</td>
+                      <td>2</td>
+                      <td>$xxx.xx</td>
+                    </tr>
+                    <tr>
+                      <td>Medium Incubator</td>
+                      <td>6</td>
+                      <td>3</td>
+                      <td>$xxx.xx</td>
+                    </tr>
+                    <tr>
+                      <td>Medium Incubator Plus</td>
+                      <td>8</td>
+                      <td>1</td>
+                      <td>$xxx.xx</td>
+                    </tr>
+                    <tr>
+                      <td>Large Incubator</td>
+                      <td>10</td>
+                      <td>2</td>
+                      <td>$xxx.xx</td>
+                    </tr>
+                    <tr>
+                      <td>Virtual Member</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>$xxx.xx</td>
+                    </tr>  
+                    </tbody>
+			    </table>
+                <p>**Subject to annual contract</p>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>-->
         </div>
     </div>  <!-- /container -->
     
