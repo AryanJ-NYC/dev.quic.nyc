@@ -33,7 +33,13 @@
             <header class="page-header"><h1 class="page-title">About the Queens College Tech Incubator</h1></header>
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
-                <img src="http://www.mgei-iagi.org/UnderConstruction1.png">
+                <p> The Queens College Tech Incubator Center, supported by the New York City Council, is the startup incubator
+				for tech freelancers, professional developers, and entrepreneurs. QUIC aims  at  helping  startup  companies
+				and entrepreneurs  to build  successful  technology  companies,  which  in  turn  creates  more  job opportunities
+				and  driving  new  innovation  and  technology  development in New York. With  the advanced  computational
+				infrastructure  and  the CUNY  community  advantages,  QUICprovides  an  outstanding  environment  for  companies
+				to  turn  innovative  ideas  into businesses and success.
+				</p>
               </article>
             <!-- /Article -->
 
