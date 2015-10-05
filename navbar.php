@@ -37,9 +37,9 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="it.php">IT</a></li>
+								<li><a href="talentedInterns.php">Talented Interns</a></li>
                                 <li><a href="faculty.php">Faculty Experts in Residence</a></li>
                                 <li><a href="master.php">Master Classes</a></li>
-                                <li><a href="member.php">Member Study Groups</a></li>
                                 <li><a href="officespace.php">Office Space</a></li>
                             </ul>
                         </li>
