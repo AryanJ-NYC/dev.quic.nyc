@@ -49,7 +49,70 @@
             <div class="col-lg-12">
                 <h1 class="page-header">Incubator Center</h1>
             </div>
-            <img src="http://www.mgei-iagi.org/UnderConstruction1.png">
+            <p>QUIC strives to provide the facility, network, workshops and more resources to our members. We have allocated public and shared space with functions, include: </p>
+			<ul>
+			<li>Lounge room: refrigerator, coffee maker, drinking water, microwave, and sink.</li>
+			<li>Resource Center: printer, copier, and 3D printer Private Phone Room.</li>
+			<li>6-seat and 14-seat Conference Rooms: modern video conferencing system with wireless collaboration capability via Sharelink 200N. </li>
+			<li>Classroom: regular classroom with projector and Lectern for up to 20 persons</li>
+			</ul>
+			<p>QUIC offers flexible space solution to your working needs. Small private office is suggested for companies of up to 4 coworkers. Our medium incubator office could accommodate 6 or 8 seats. Two 10-seat large offices are reserved for larger tech companies. Our shared office is reserved to a 12-seat big spacious room.</p>
+			<p>The following lists different membership types. <p>
+			
+			<div id="table">
+			  <h2>Membership Types</h2>
+			  <table class="table table-striped">
+				<thead>
+				  <tr>
+					<th>Membership</th>
+					<th>Max. Occupants</th>
+					<th>Available No. of Rooms</th>
+					<th>Monthly Cost</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>Independent Pro</td>
+					<td>12</td>
+					<td>1</td>
+					<td>$xxx.xx</td>
+				  </tr>
+				  <tr>
+					<td>Small Incubator </td>
+					<td>4</td>
+					<td>2</td>
+					<td>$xxx.xx</td>
+				  </tr>
+				  <tr>
+					<td>Medium Incubator</td>
+					<td>6</td>
+					<td>3</td>
+					<td>$xxx.xx</td>
+				  </tr>
+				  <tr>
+					<td>Medium Incubator Plus</td>
+					<td>8</td>
+					<td>1</td>
+					<td>$xxx.xx</td>
+				  </tr>
+				  <tr>
+					<td>Large Incubator</td>
+					<td>10</td>
+					<td>2</td>
+					<td>$xxx.xx</td>
+				  </tr>
+				  <tr>
+					<td>Virtual Member</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>$xxx.xx</td>
+				  </tr>
+				  <p>**Subject to annual contract</p>
+				</tbody>
+			  </table>
+			</div>
+			
+			
             <!--
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
