@@ -33,7 +33,10 @@
             <header class="page-header"><h1 class="page-title">About Our Facilities</h1></header>
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
-                <img src="http://www.mgei-iagi.org/UnderConstruction1.png">
+                <p> QUIC is located in a dedicated building, CEP2, on an 80-acre, tree-lined Queens College
+				campus surrounding a traditional quad with a magnificent view of the Manhattan skyline.
+				The building access is controlled by Blackboard Door Access System. All qualified members and
+				fellows will be assigned a QCard issued by Queens College. </P>
               </article> <!-- /Article -->
 
             <aside class="col-sm-4 sidebar sidebar-right">
