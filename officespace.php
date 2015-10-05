@@ -34,6 +34,7 @@
             <!-- Article main content -->
             <article class="col-sm-8 maincontent">
                 <p>QUIC gives tech entrepreneurs comfortable private offices, and the whole campus to research and develop innovative technology ideas. Our available office space includes 4, 6, 8, 10-12-seat private offices, and one shared offices that could accommodate up to 12 seats.</p>
+				<ul>
 				<li>4-seat private unit: approximately 150 ft2, and could accommodate up to 4 comfortable seating with 5 or 6-ft computer desk (provided).</li>
 				<li>6-seat private unit: approximately 270 ft2, and could accommodate up to 6 comfortable seating with 5 or 6-ft computer desk (provided).</li>
 				<li>8-seat private unit: approximately 300 ft2, and could accommodate up to 8 comfortable seating with 5 or 6-ft computer desk (provided).</li>
