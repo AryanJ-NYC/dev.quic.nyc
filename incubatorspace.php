@@ -53,7 +53,7 @@
 			<ul>
                 <li>Lounge room: refrigerator, coffee maker, drinking water, microwave, and sink.</li>
                 <li>Resource Center: printer, copier, and 3D printer Private Phone Room.</li>
-                <li>6-seat and 14-seat Conference Rooms: modern video conferencing system with wireless collaboration capability via Sharelink 200N. </li>
+                <li>6-seat and 14-seat Conference Rooms: modern video conferencing system with wireless collaboration capability via Sharelink 200N.</li>
                 <li>Classroom: regular classroom with projector and Lectern for up to 20 persons</li>
 			</ul>
 			<p>QUIC offers flexible space solution to your working needs. Small private office is suggested for companies of up to 4 coworkers. Our medium incubator office could accommodate 6 or 8 seats. Two 10-seat large offices are reserved for larger tech companies. Our shared office is reserved to a 12-seat big spacious room.</p>
