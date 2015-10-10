@@ -1,6 +1,6 @@
 <?php
 require_once("/storage/wwwroot/common/database.inc.php");
-$database["database"] = "quicweb";
+$database["database"] = $dbprefix . "quicweb";
 
 class Database {
  

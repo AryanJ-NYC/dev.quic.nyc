@@ -13,7 +13,6 @@ if(!ini_get('date.timezone')) {
                     <div class="col-md-3 widget">
                         <h3 class="widget-title">Information</h3>
                         <div class="widget-body">
-                                <a href="mailto:#">info@quic.nyc</a><br>
                                 65-30 Kissena Boulevard, Flushing, New York
                             </p>    
                         </div>
