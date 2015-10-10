@@ -37,7 +37,7 @@
 				for tech freelancers, professional developers, and entrepreneurs. QUIC aims  at  helping  startup  companies
 				and entrepreneurs  to build  successful  technology  companies,  which  in  turn  creates  more  job opportunities
 				and  driving  new  innovation  and  technology  development in New York. With  the advanced  computational
-				infrastructure  and  the CUNY  community  advantages,  QUICprovides  an  outstanding  environment  for  companies
+				infrastructure  and  the CUNY  community  advantages,  QUIC provides  an  outstanding  environment  for  companies
 				to  turn  innovative  ideas  into businesses and success.
 				</p>
               </article>
