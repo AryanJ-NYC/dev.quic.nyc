@@ -68,7 +68,7 @@ $db_key_values = [
     "email" => "%EMAIL%",
     "phone" => "%PHONE%",
     "text" => "%MESSAGE%"
-]
+];
 
 # if no fields are empty, send the email. 
 # echo result to AJAX script

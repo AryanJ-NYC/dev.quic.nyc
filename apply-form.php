@@ -116,7 +116,7 @@ $db_key_values = [
     "advantage" => "%ADVANT%",
     "skills" => "%SKILL%",
     "ability" => "%SUCCESS%"
-]
+];
     
 # if no fields are empty, send the email. 
 # echo result to AJAX script

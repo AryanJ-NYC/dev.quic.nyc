@@ -80,7 +80,7 @@ $db_key_values = [
     "credstograd" => "%CREDITS%",
     "programmingExperience" => "%EXP%",
     "personalStatement" => "%PERSONAL%"
-]
+];
    
 # if no fields are empty, send the email. 
 # echo result to AJAX script
