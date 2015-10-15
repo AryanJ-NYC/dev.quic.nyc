@@ -68,20 +68,26 @@ $fields = array(
 $errorValues = array();
 $message = generateMessage($fields, $errorValues);
 $query = "INSERT INTO `student`(`Name`, `Email`, `Phone`, `Degree`, `Graduation`, `Year`, `Status`, `Credits_Needed`, `experience`, `personal`) VALUES ('%NAME%','%EMAIL%','%PHONE%','%DEGREE%','%GRAD%','%YEAR%','%STATUS%','%CREDITS%','%EXP%','%PERSONAL%')";
+
+$db_key_values = [
+    "applicant" => "%NAME%",
+    "email" => "%EMAIL%",
+    "phone" => "%PHONE%",
+    "degree" => "%DEGREE%",
+    "gradseason" => "%GRAD%",
+    "gradyear" => "%YEAR",
+    "citizenship" => "%STATUS%",
+    "credstograd" => "%CREDITS%",
+    "programmingExperience" => "%EXP%",
+    "personalStatement" => "%PERSONAL%"
+]
    
 # if no fields are empty, send the email. 
 # echo result to AJAX script
-if(count($errorValues) == 0) {
-    $query = str_replace("%NAME%", get('applicant'), $query);
-    $query = str_replace("%EMAIL%", get('email'), $query);
-    $query = str_replace("%PHONE%", get('phone'), $query);
-    $query = str_replace("%DEGREE%", get('degree'), $query);
-    $query = str_replace("%GRAD%", get('gradseason'), $query);
-    $query = str_replace("%YEAR%", get('gradyear'), $query);
-    $query = str_replace("%STATUS%", get('citizenship'), $query);
-    $query = str_replace("%CREDITS%", get('credstograd'), $query);
-    $query = str_replace("%EXP%", get('programmingExperience'), $query);
-    $query = str_replace("%PERSONAL%", get('personalstatement'), $query);
+if (count($errorValues) == 0) {
+    foreach ($db_key_values as $key => $value) {
+        $query = str_replace($value, mysqli_escape_string(get($key)), $query);
+    }
 
     if ($db->query($query) === TRUE) {
         $message .= "\n***\nThis information has been successfully added to database table [student]";

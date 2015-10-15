@@ -63,7 +63,7 @@ $errorValues = array();
 $message = generateMessage($fields, $errorValues);
 $query = "INSERT INTO `contact`(`Name`, `Email`, `Phone`, `Message`) VALUES ('%NAME%', '%EMAIL%', '%PHONE%', '%MESSAGE%');";
 
-db_key_values = [
+$db_key_values = [
     "name" => "%NAME%",
     "email" => "%EMAIL%",
     "phone" => "%PHONE%",
