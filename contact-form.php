@@ -63,13 +63,19 @@ $errorValues = array();
 $message = generateMessage($fields, $errorValues);
 $query = "INSERT INTO `contact`(`Name`, `Email`, `Phone`, `Message`) VALUES ('%NAME%', '%EMAIL%', '%PHONE%', '%MESSAGE%');";
 
+db_key_values = [
+    "name" => "%NAME%",
+    "email" => "%EMAIL%",
+    "phone" => "%PHONE%",
+    "text" => "%MESSAGE%"
+]
+
 # if no fields are empty, send the email. 
 # echo result to AJAX script
-if(count($errorValues) == 0) {
-    $query = str_replace("%NAME%", get('name'), $query);
-    $query = str_replace("%EMAIL%", get('email'), $query);
-    $query = str_replace("%PHONE%", get('phone'), $query);
-    $query = str_replace("%MESSAGE%", get('text'), $query);
+if (count($errorValues) == 0) {
+    foreach ($db_key_values as $key => $value) {
+        $query = str_replace($value, mysqli_escape_string(get($key)), $query);
+    }
 
     if ($db->query($query) === TRUE) {
         $message .= "\n***\nThis information has been successfully added to database table [contact]";
