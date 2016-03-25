@@ -1,1 +1,1 @@
-View the live website [here](http://quic.nyc/).
+View the live website [here](https://safe-plains-97827.herokuapp.com/).
