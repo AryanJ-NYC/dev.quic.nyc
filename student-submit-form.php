@@ -72,16 +72,16 @@ $query = "INSERT INTO `student`(`Name`, `Email`, `Phone`, `Degree`, `Graduation`
 # if no fields are empty, send the email. 
 # echo result to AJAX script
 if(count($errorValues) == 0) {
-    $query = str_replace("%NAME%", get('applicant'), $query);
-    $query = str_replace("%EMAIL%", get('email'), $query);
-    $query = str_replace("%PHONE%", get('phone'), $query);
-    $query = str_replace("%DEGREE%", get('degree'), $query);
-    $query = str_replace("%GRAD%", get('gradseason'), $query);
-    $query = str_replace("%YEAR%", get('gradyear'), $query);
-    $query = str_replace("%STATUS%", get('citizenship'), $query);
-    $query = str_replace("%CREDITS%", get('credstograd'), $query);
-    $query = str_replace("%EXP%", get('programmingExperience'), $query);
-    $query = str_replace("%PERSONAL%", get('personalstatement'), $query);
+    $query = str_replace("%NAME%", db_escape_string(get('applicant')), $query);
+    $query = str_replace("%EMAIL%", db_escape_string(get('email')), $query);
+    $query = str_replace("%PHONE%", db_escape_string(get('phone')), $query);
+    $query = str_replace("%DEGREE%", db_escape_string(get('degree')), $query);
+    $query = str_replace("%GRAD%", db_escape_string(get('gradseason')), $query);
+    $query = str_replace("%YEAR%", db_escape_string(get('gradyear')), $query);
+    $query = str_replace("%STATUS%", db_escape_string(get('citizenship')), $query);
+    $query = str_replace("%CREDITS%", db_escape_string(get('credstograd')), $query);
+    $query = str_replace("%EXP%", db_escape_string(get('programmingExperience')), $query);
+    $query = str_replace("%PERSONAL%", db_escape_string(get('personalstatement')), $query);
 
     if ($db->query($query) === TRUE) {
         $message .= "\n***\nThis information has been successfully added to database table [student]";
