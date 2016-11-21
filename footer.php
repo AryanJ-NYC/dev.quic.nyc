@@ -51,7 +51,7 @@ if(!ini_get('date.timezone')) {
                                 <a href="community.php">Community</a> |
                                 <a href="resources.php">Resources</a> |
                                 <a href="events.php">Events</a> |
-                                <a href="membership.php">Membership</a> |
+                                <a href="benefits.php">Membership</a> |
                                 <a href="projects.php">Projects</a> |
                                 <a href="contact.php">Contact</a> |
                                 <b><a href="applynow.php">Apply Now</a></b>

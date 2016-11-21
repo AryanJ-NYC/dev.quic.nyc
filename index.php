@@ -35,27 +35,47 @@
 
 	<!-- Intro -->
 	<div id="welcome" class="container text-center">
-		<!-- Do not change these --> <br> <br> <br> <!-- Do not change these -->
+	    <!-- Do not change these --> <br> <br> <!-- Do not change these -->
 
 		<h2 class="thin">Welcome to Queens College</h2>
-		<p align="left" class="text-muted">
-		<br>
-			Located in a residential area of Flushing in the borough of Queens—America’s most ethnically diverse county—Queens College has students from more than 150 nations. Recognized as one of the most affordable public colleges in the country, Queens College offers a first-rate education to talented people of all backgrounds and financial means.
-			The beautiful campus consists of 80 acres lined with trees surrounding grassy open spaces and a traditional quad. The college boasts state-of-the-art computer and science laboratories, a spectacular music building, and the six-story Rosenthal Library. The major classroom building, Powdermaker Hall, has the latest technology throughout.
-		</p>
+		<br> <br> <br> 
+		
+		<div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="about.php"><img class="img-responsive" src="http://www.mymauivilla.com/wp-content/uploads/2013/06/image-placeholder47-700x400.jpg" alt=""></a>
+                <h3><a href="about.php">About QUIC</a></h3>
+            </div>
 
-		<br>
-		<h2 class="thin">Our Mission Statement</h2>
-		<p align="left" class="text-muted">
-		<br>
-		The mission of Queens College is to prepare students to become leading citizens of an increasingly global society. The college seeks to do this by offering its exceptionally diverse student body a rigorous education in the liberal arts and sciences under the guidance of a faculty that is dedicated to the pursuit of excellence and the expansion of the frontiers of knowledge. Its goal is that students learn to think critically, address complex problems, explore various cultures, and use effectively the full array of available technologies and information resources.<br><br>
-		For its faculty, the college seeks productive scholars, scientists, and artists deeply committed to teaching. It endeavors to enhance the teaching effectiveness of faculty and to encourage their research and creative work. The college recognizes the importance of a diverse faculty responsive to the needs and aspirations of students of all ages and backgrounds.
-		As a public institution, Queens College provides affordable access to higher education and embraces its special obligation to serve the larger community. It is a source of information in the public interest; it is a venue for cultural and educational activities serving the general public. Through its graduates’ contributions to an educated workforce and through the leading roles they assume in their local communities, the college is vested in the economic future and vitality of New York.
-		As one of the most culturally diverse campuses in the country, Queens College faces special challenges and opportunities. By balancing tradition and innovation in the service of this diversity, it represents the future of the nation.<br>
-		<br><br><br>
+            <div class="col-md-4 portfolio-item">
+                <a href="events.php"><img class="img-responsive" src="http://www.mymauivilla.com/wp-content/uploads/2013/06/image-placeholder47-700x400.jpg" alt=""></a>
+                <h3><a href="events.php">Events</a></h3>
+            </div>
+            
+            <div class="col-md-4 portfolio-item">
+                <a href="benefits.php"><img class="img-responsive" src="http://www.mymauivilla.com/wp-content/uploads/2013/06/image-placeholder47-700x400.jpg" alt=""></a>
+                <h3><a href="benefits.php">Membership Benefits</a></h3>
+            </div>
+        </div>
 
-		<p><a href="about.php" class="btn btn-default btn-md" role="button">Learn more about our Tech Incubator!</a></p>
-		</p>	
+        <br> <br> <br> 
+
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="it.php"><img class="img-responsive" src="http://www.mymauivilla.com/wp-content/uploads/2013/06/image-placeholder47-700x400.jpg" alt=""></a>
+                <h3><a href="it.php">IT Resources</a></h3>
+            </div>
+
+            <div class="col-md-4 portfolio-item">
+                <a href="officespace.php"><img class="img-responsive" src="http://www.mymauivilla.com/wp-content/uploads/2013/06/image-placeholder47-700x400.jpg" alt=""></a>
+                <h3><a href="officespace.php">Office Space</a></h3>
+            </div>
+            
+            <div class="col-md-4 portfolio-item">
+                <a href="cost.php"><img class="img-responsive" src="http://www.mymauivilla.com/wp-content/uploads/2013/06/image-placeholder47-700x400.jpg" alt=""></a>
+                <h3><a href="cost.php">Membership Cost</a></h3>
+            </div>    
+        </div>
+
 	</div>
 	<!-- /Intro-->
 		
